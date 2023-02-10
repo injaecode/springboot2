@@ -1,0 +1,3268 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Bundle-ManifestVersion: 2
+Bundle-Name: Spring Boot Language Server
+Bundle-Vendor: VMware, Inc.
+Bundle-SymbolicName: org.springframework.tooling.boot.ls;singleton:=true
+Bundle-Version: 1.44.0.202301310652
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.eclipse.jdt.launching;bundle-version="3.9.0",org.ecl
+ ipse.core.runtime;bundle-version="3.12.0",org.eclipse.ui.genericeditor;
+ bundle-version="1.0.0",org.eclipse.jface.text;bundle-version="3.11.100"
+ ,org.eclipse.jdt.ui;bundle-version="3.13.0",org.eclipse.tm4e.core;bundl
+ e-version="0.1.0",org.eclipse.tm4e.ui;bundle-version="0.1.0",org.eclips
+ e.lsp4e;bundle-version="0.16.0",org.eclipse.lsp4j;bundle-version="0.19.
+ 0",org.eclipse.lsp4j.jsonrpc;bundle-version="0.19.0",org.eclipse.ui.wor
+ kbench,org.eclipse.jface,org.springframework.tooling.ls.eclipse.commons
+ ;bundle-version="0.2.0",org.eclipse.core.resources,org.eclipse.ui,org.e
+ clipse.ui.ide,org.eclipse.jdt.core,org.eclipse.ui.editors;bundle-versio
+ n="3.11.100",org.springsource.ide.eclipse.commons.livexp,org.apache.com
+ mons.lang3,org.eclipse.wst.sse.ui;bundle-version="1.5.0";resolution:=op
+ tional,org.eclipse.jdt.annotation,org.eclipse.mylyn.wikitext.markdown,o
+ rg.eclipse.mylyn.wikitext,org.eclipse.lsp4e.jdt;bundle-version="0.10.0"
+ ,org.springsource.ide.eclipse.commons.boot.ls,org.springframework.ide.e
+ clipse.editor.support,com.google.guava,org.eclipse.core.expressions,org
+ .springsource.ide.eclipse.commons.core;bundle-version="4.17.0",org.spri
+ ngframework.tooling.jdt.ls.commons;bundle-version="4.17.0",org.eclipse.
+ jface.notifications
+Import-Package: com.google.common.base,com.google.common.collect,com.goo
+ gle.gson;version="[2.9.1,2.10)",com.google.gson.annotations;version="[2
+ .9.1,2.10)",com.google.gson.reflect;version="[2.9.1,2.10)",com.google.g
+ son.stream;version="[2.9.1,2.10)",org.eclipse.jface.preference,org.osgi
+ .framework
+Bundle-Activator: org.springframework.tooling.boot.ls.BootLanguageServer
+ Plugin
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Automatic-Module-Name: org.springframework.tooling.boot.ls
+Bundle-License: Eclipse Public License v1.0;link="https://www.eclipse.or
+ g/legal/epl-v10.html"
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/util/SystemPropertyUtils.class
+SHA-256-Digest: x3txqSKCIqjSfW2KqqEtgedxq1CVaQRYS6xc3qE4efE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/junit-platform-en
+ gine-1.9.1.jar
+SHA-256-Digest: 9Zw6Zwh/K5u7F6nAbdQWaXmJssU7OIQ4dOu7vLCvwj8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/RequestMappingMetrics$1.class
+SHA-256-Digest: tzOdW4cObeE50z9S4Jtt0blg8p1yk4Dxa1tbSGBgYG4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/util/ListenerManager.class
+SHA-256-Digest: FLCMWWn6zy7sMvbxzTP+1CtZd4NVWrawsQY2zZSJFEQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/common/PropertyCompletionFactory.class
+SHA-256-Digest: DzG8q4TpcWCZ//ioAOq+q22Rb97lbahz5AUolrBR2yc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/json/Links.class
+SHA-256-Digest: kivmfwiNXLkZXmwK+PcD6nRLiDO7pg/CvsKv+a3dde0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/javax.inject-1.ja
+ r
+SHA-256-Digest: kcdwRKUMSBY2wy2Rb9ickRinIZU5BFLIEGUID5V95/8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveConditionalParser.class
+SHA-256-Digest: 7EFtMUunsVsXXB4Fapbi0Ujvgr1OTKD/xCKLmROeFfs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveMemoryMetricsModel.class
+SHA-256-Digest: WIzOi7OfDnQeBwH3LTSqvKHfyInESbKvoSaVSXs7vGo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/rewrite-maven-7.3
+ 5.0.jar
+SHA-256-Digest: wq47/rblhSiJzR3S24BhIRcpVGWwwvxqqPKO+vE/ph0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$9.class
+SHA-256-Digest: /jDsRST8cyfNF5CBkpRqiMetwSrqVk2wlxKSP4WgZKk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/AbstractSymbolProvider.class
+SHA-256-Digest: /DJDvSEe5nINsS9B2inNwdNV/0c99QwLWetgewz1F3g=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/JavaServerSourceLinks.class
+SHA-256-Digest: 4wa+cFnzqkuL9e2Gv3l8HLlG0dYCFhe8iKrc/ROZHO8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/junit-xml-formatt
+ er-0.1.0.jar
+SHA-256-Digest: tPNG6TZa8s+IzOdDdvfesAeOZlHONQ6B0Afv65cW00I=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringFactoriesIndexer.class
+SHA-256-Digest: jFtEw54Ruf7Ch2DiL6hQigDHuMzL0zeu519ZOzRJ93w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/SourceLinks.class
+SHA-256-Digest: i3U6abf6gENFfSi/crtgRK78sJz7X4NxTWB/CIj4Wcs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.text-
+ 3.12.300.jar
+SHA-256-Digest: bE9PATl65WbLcAfKiF/8XRgTyRPWYC14qPgYAaOQYOg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/data/DataRepositoryCompletionProcessor.clas
+ s
+SHA-256-Digest: Cjf5Ok5mt0YgOFSCeJHcb3VrHKUx6X6HLchm4lBYUQY=
+
+Name: org/springframework/tooling/boot/ls/xml/XMLContentAssistProposalCo
+ mputer.class
+SHA-256-Digest: MtmrFSVlU6zxqW0N+oXniH9Bzo28APUUw1RzoKDdt6o=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/value/Constants.class
+SHA-256-Digest: 72MTdrxwnvS+HfJ2srGUSFRcQ7B7n3mZanLiEy2Zi8s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/javolution-core-j
+ ava-6.0.0.jar
+SHA-256-Digest: upa4nnlfVefN3mGefLIdHcKYb1jNw7PPXsHzgr/lD/g=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringLiveChangeDetectionWatchdog$1.c
+ lass
+SHA-256-Digest: XZ7Avq6ZN5dnTBjvakrq/ObGhRAwdIABnhZFbykBx28=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/RewriteCompilationUnitCache$2.class
+SHA-256-Digest: v2jVWKUSqzSVHYUr5+IobPWsf927WbnlbCrvmtWPTj0=
+
+Name: org/springframework/tooling/boot/ls/prefs/LanguageServerProblemTyp
+ esMetadata$1.class
+SHA-256-Digest: zpnsDnWC6AS3XPlVtXtTkx5SwEew5VtBxa5ajVtcA0c=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/cucumber-gherkin-
+ messages-7.11.0.jar
+SHA-256-Digest: GzXtvuRLln20LvMbyhJc7m+5nKO1ocO0/z2Xgy3m1ME=
+
+Name: org/springframework/tooling/boot/ls/prefs/RemoteAppsPrefsPage.clas
+ s
+SHA-256-Digest: TjCro96lfOJh4oeXiZyOBGNWkrUyU76T32nr11dUYIY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxRouterSymbolProvider$
+ 1.class
+SHA-256-Digest: oD+0dT0zZfbmkoz24SuVTp8rgO/Ubk2ciJ9OXk2nOe8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.lsp4j
+ .generator-0.19.0.jar
+SHA-256-Digest: azdY5Pbuy/SL/LbpxPhgvRRVxcOFLNgHRgtrJiPZtjQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/BootJavaReferencesHandler.class
+SHA-256-Digest: KxANedkchYLjMOYYGLwGoA8Y8lHj83WskUmBUC574/k=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/CompilationUnitCache$1.class
+SHA-256-Digest: kaeMBvmolptK5W+KFKz9HNHsaIAYjCWFYe4iDxmKwoo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/StsValueHint$3.class
+SHA-256-Digest: yujfL0aB3RZV3s6AxYA1rtoQiJHk4BYfGejqmCgKGZE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/snippets/JavaSnippetContext.class
+SHA-256-Digest: XW506YLlQ5eSK4PBRrDJXuDIphEMyYytjqy57C9Xr94=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/junit-platform-co
+ mmons-1.9.1.jar
+SHA-256-Digest: qOgtUQu7zl/hd3suz3vGhAHproMnAJ4Cmy21eYQD0l4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/rewrite-testing-f
+ rameworks-1.33.0.jar
+SHA-256-Digest: wijJP2C/i2nctcj6k4+KIPaatEQNm9m43aSrViiZWFY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootLanguageServerBootApp.class
+SHA-256-Digest: Y3vfgIJMZ2pLY3aP+ydkS9fasrdWnJQHdiluqv/VhD8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxMethodFinder.class
+SHA-256-Digest: GXQBsxd3uubMqm56ccwTjMMep3gWqYWJtZbevNNxL6c=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.core.
+ runtime-3.26.100.jar
+SHA-256-Digest: +Q69LwUtYCKBhAsrjNH1p7bRzy1ahbewQVxwRWhV0XM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.equin
+ ox.common-3.17.0.jar
+SHA-256-Digest: 6F/uFuuiVaRRy+1mwD3AJCZ1QgNr3FkPe3prMJKVmto=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/SpringXMLCompletionEngine$1.class
+SHA-256-Digest: j6m7GxGlsEjtQA/lWx8D9k2LnhYJd9iPEUrNxIADNRk=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/ExplodedArchive$AbstractIterator.class
+SHA-256-Digest: oAeXk4WCTFkVA+a+dxMyWHHir+sUIMstizGqWYfbDX0=
+
+Name: org/springframework/tooling/boot/ls/prefs/FileListEditor.class
+SHA-256-Digest: yMZQk9cJv/PVbRf0eAi6qcxUgIuCgbAfMqFk0berZH4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/snippets/JavaSnippetBuilder.class
+SHA-256-Digest: RQ6f+bxBMlJBGg6tMDqMOZlaAUj2fNMP8PyACR1MxDQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/CompletionProvider.class
+SHA-256-Digest: 2pbBqRvmGUeLsU+LbN+H0ffK/BsZ8JIZREQSJJM5UvM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/RewriteRecipeRepository$RecipeFilte
+ r.class
+SHA-256-Digest: 9obtSfva5tKSF3RuzjfwwpxK7J1C5TfZSW+hkgktdhg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/hyperlinks/XMLHyperlinkProvider.class
+SHA-256-Digest: Jx8ftWR4DKURRqQnoJn60sj6FMW1tgwVY3XPptYj/Jw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/SimpleConfigurationMetadat
+ aRepository.class
+SHA-256-Digest: jlHbM1HNd1IvfvmccecWNUxyBHwkF8Ve2HmM7nDhaj8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/LatencyUtils-2.0.
+ 3.jar
+SHA-256-Digest: oyqf+gay9OAcU2D4+d97xdlFSl03PNjzYTR/paVxZew=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessParams.class
+SHA-256-Digest: qdJrQgQlpbobzBNzvkchduIwTGbbgWQyxi2C12cxd4E=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/conditionals/ConditionalsLiveHoverProvider.
+ class
+SHA-256-Digest: Xi0ounm6NxPWdBWmRYEOBsQRpI5zrYPQ4pCgncC8JKg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/DocumentUtils.class
+SHA-256-Digest: miUEL7fBtsxQ6PXdspkCZwO2Yjx4ZYIOMZPEIaDV2ps=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/asm-9.4.jar
+SHA-256-Digest: OdDis9xFr2Wgmwl5RXUKlKEm4FLhJPk0aEQ6HQ4V84E=
+
+Name: org/springframework/tooling/boot/ls/BootProjectTester.class
+SHA-256-Digest: POSzD6TnKUX3r/PMpwtjQKeK/fkJbQRdUDlOcXLbI4g=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/StartupMetricsModel$StartupSte
+ p.class
+SHA-256-Digest: gJlnRZ3hmBt4CmJCrnXd/PNsiVA/jhpe6gYcG0nxZto=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jackson-module-ja
+ xb-annotations-2.14.1.jar
+SHA-256-Digest: pkDoHydHxzRkzBi7RhqcP0QhE75p6BEVwCMMUh4Hljs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SymbolIndexConfig$Builder.class
+SHA-256-Digest: RylnS0mQDBb4tE9Ngp/toLEQAQD5L/UXynvCuVwRrOk=
+
+Name: servers/spring-boot-language-server/META-INF/maven/org.springframe
+ work.ide.vscode/spring-boot-language-server/pom.properties
+SHA-256-Digest: o0J6jnLICNMAHVEZoPM+ddsPUOyUrIXVWQKUJ5eSsa0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/ConfigurationMetadataGroup
+ .class
+SHA-256-Digest: F/EnbfI0OSqf/CgZcEbJ0Ez/TRQG1Jrp0o2J9V2T8Ys=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/MediaTypeMapping.class
+SHA-256-Digest: Lx3PSV8Q/K4wpxWSRFLmuBUie2o4zHqqcX5YOX1UQIs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessLiveDataExtractor
+ OverJMX.class
+SHA-256-Digest: Qaw3/TlJ7/fYIHzIzADjVyd8QlcASl7RwUwdOSwU5jg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/ValueProvider.class
+SHA-256-Digest: zNlbRf3qjsx83Aar5gtIfMdE2bKNK2rZK64oeBNDQDM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/reconcile/ApplicationYamlASTReconciler$1.cl
+ ass
+SHA-256-Digest: QzaTr9SPq4AZ/JZ0aKyo4vzoJCul+PuMmQR36QhYV5o=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringIndexerXMLNamespaceHandlerBeans
+ .class
+SHA-256-Digest: /xulggfAvji3K3VuztTjYJwoebiOFNbTph2lSvrIBWo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jackson-dataforma
+ t-smile-2.14.1.jar
+SHA-256-Digest: Y9rMTMkoi4nvnT5mT+1oe6KWyfgI5nTpWISuo4ep5VI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/ConfigurationMetadataRepos
+ itory.class
+SHA-256-Digest: UfQ43s1mw8ZkUtZKTwiLYYotPaBUsCiUr5CEsRecMR4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringIndexerJava.class
+SHA-256-Digest: plEohAkGYzW5H3sqpb6mw//KonudRBrWyDrlZ8luPX0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/apiguardian-api-1
+ .1.2.jar
+SHA-256-Digest: tQlEisUG1gcxnxglN/CzXXEAdYLsdBgyofER5bW3Czg=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/AbstractJarFile$JarFileType.class
+SHA-256-Digest: stA8pjZfElgM6YXwq5V+FWyZWJqFhruFih7Ep1YVaL8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/AtomSourceLinks.class
+SHA-256-Digest: wwL1k98WT9qxDirS4w4CrwtlfFehMylVnteM1OfwybA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootLanguageServerInitializer.class
+SHA-256-Digest: pb3amthSFN6gPzlysgEmaXYVPhIxBooulTVWvQ6cdVQ=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jarmode/TestJarMode.class
+SHA-256-Digest: zEV7kMkrk5mGx8fyINWCGcW+31Z0hjrRWFb2nAGv9Rk=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/JarFileArchive.class
+SHA-256-Digest: 94fGEKULavNbuu0lw6BKWksO68GOEaJK46uYDovFxJY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/MetadataManipulator$ParsedContent.class
+SHA-256-Digest: 4GMXu5R6f3++d/pBFZ9f64KcKaG2LmFhW0K3c2ywEJk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/DocumentDescriptor.class
+SHA-256-Digest: ZNWC93BJb98VY9V4ohdSRo9qQ3lKwa7vtopsSQJbynw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/json-20160810.jar
+SHA-256-Digest: v1HJATEoyxUgEiXlFHb2CtkRaBNykEBlWiONKCmu+Lg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/completions/TypeCompletionProposalProvider.c
+ lass
+SHA-256-Digest: E/hiMy4iYur8JzsPm+Tf3xvECfDbqRF7ZQEjZL+/YOs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveMetricsModel.class
+SHA-256-Digest: 8iTBEtJNoJzugacEe3ULemtacmUlCT0t1KZrx6zQuzQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/XMLElementReconciler.class
+SHA-256-Digest: soawzgodZh93Ddjg3ddKgLIL70nqeMUx9Pg+oL0Zw8w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessLiveDataChangeEve
+ nt.class
+SHA-256-Digest: ZP9budcw7QaJ2t7QwGhsjzBM9txvGIIBxw0tAQiyc6s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/data/DomainProperty.class
+SHA-256-Digest: NYspJoyJBkuynlRQvj89N8/Ueog+iF8NmbOxFS2YM8Y=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/BootJavaDocumentHighlightEngine.cl
+ ass
+SHA-256-Digest: jCc0Zq+jbgSLca3jZ62wXPsww0AJLIzC1jQe9jQdeZM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/logback-classic-1
+ .4.5.jar
+SHA-256-Digest: WVQx31jHTVFd1MIlsthNnyPhaiTa6q/XyUsFkxKotJM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LivePropertiesJsonParser.class
+SHA-256-Digest: YPSfu+p8PHnQ1IGXzI1LaUCyJQA+/Srn4SHxO0U7Iug=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootLsConfigProperties.class
+SHA-256-Digest: iZR8iRSFk95GECe5wh5RV4x3Lx3BvF7CuEut5GypZ4w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$4.class
+SHA-256-Digest: st/guHBprdHONxN5S7r/Q+vOlZRz11rSA4cm7FKVfEM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveContextPathUtil.class
+SHA-256-Digest: v1vNKuErFTcK+lOJ4AeTVYOr+8N4HfQHEMsUkbqsgZo=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/WarLauncher.class
+SHA-256-Digest: mQ5Q3Klq4sDnVp+kL+nzZXWGorjgrWQAWobvLViYbCY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/AutowiredFieldIntoConstru
+ ctorParameterCodeAction.class
+SHA-256-Digest: k0twFZpvK8gODWwYpg8VHJA9ZUa00v+NepUvqNCUfKQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/asm-analysis-9.4.
+ jar
+SHA-256-Digest: e1+MXjvzQbW7Vw0m83nj/evcMnMhhxWcQkeRZAU/Nz0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveProperty$LivePropertyBuild
+ er.class
+SHA-256-Digest: H5IVYBWhqIuWDrXN4oFZzSQUZ/uCZxBUfNL3j2f4GAo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/PreciseBeanTypeProblem.cl
+ ass
+SHA-256-Digest: q3WZGx1dxme7okSO0dNeNAY73FkeeB0NpMfmhuAQK0s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/jdt/imports/ImportRewrite$1.class
+SHA-256-Digest: D36wirbAwEPG51b7QMRyTor0zMK6nrvCUcwn+/3BGTE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SymbolIndexConfig.class
+SHA-256-Digest: FsQ0UHMNmCs0fDegAIJRgkxbiQ8PGLorEQfJJ6wGQpM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/completions/PropertyNameCompletionProposalPr
+ ovider.class
+SHA-256-Digest: 8Ysc3SSBAdQq4QBT/IZwC/MRSoUVQzBQedwwIiyKRFo=
+
+Name: org/springframework/tooling/boot/ls/BootLanguageServerPlugin.class
+SHA-256-Digest: pEUBg55GITDbT7VZIfhgo+jv3D3pHi/LScWc86sowD8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/language-server-s
+ tarter-1.44.0-SNAPSHOT.jar
+SHA-256-Digest: mjzoIWpplbaSQPiQiX+75WCxIoeqTgfKNxZOUQT19nw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/ChangeHistory.class
+SHA-256-Digest: 0dG6oVJMc+DNtoL5+7LJvPKYL55RI2HlY3kd97LtDhQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/FileScanListener.class
+SHA-256-Digest: Gf4piD/favToOn2UCpGBM15T21RxLsMw/gtC5tqq9qY=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarFile$JarEntryEnumeration.class
+SHA-256-Digest: ceyIbXPVkmYQai32N+eoR6UvNZURTMt2FH7WoaSj0kQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/MetadataManipulator$ContentStore.class
+SHA-256-Digest: +6rydJIxkAmw/EA+W2WFWYHq0nDe4cGCH4Is5q1Lgrg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/antlr4-4.9.3.jar
+SHA-256-Digest: OG/sUguJYv439EivODkg6jPXpTIxSzbXupzOwbqV6zc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/micrometer-core-1
+ .10.2.jar
+SHA-256-Digest: YChC6ohJZ19m7EjySXl0QzGcs8lQI/ZBTsHOYLxkE8E=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SymbolCacheVoid.class
+SHA-256-Digest: sFQQJOwkllVd2c/+dyEZdIKX1Gi3URDPCikR5j2VHmg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxElementsInformation.c
+ lass
+SHA-256-Digest: mhjdbRYVx/FLVroIIXKRBWKr1GidrzyjrkmwfZ7pn2I=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/package-info.class
+SHA-256-Digest: QyjfciqQk7u8fW5+DoMAXzQ6EEEjOAf1+Wh3F7x5AkY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/SpringSymbolIndex.class
+SHA-256-Digest: IFIxmaziJ/vZ6chI0L1ojwN/O2iuYmwBo8PbTY5pZzg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/FunctionUtils.class
+SHA-256-Digest: 4E2+/pONtKIrPviN26GTayIxON+BN1ncARf0opBSbdQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/Boot2JavaProblemType.class
+SHA-256-Digest: CcU1EyeFh210PnhBT7XYXkAHk6jbnU89dBCSj1QbpWc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxPathFinder.class
+SHA-256-Digest: Ggtsc8IuiTm3qq9ff2pRsCnkVc9fifBP2oEpZtG3tPg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.core.
+ expressions-3.8.200.jar
+SHA-256-Digest: E9u+MlbxGZxpp5w7pMbueebBoOc/Z9SfXzNlt604eBg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/antlr4-runtime-4.
+ 9.3.jar
+SHA-256-Digest: ExpllJabxPMh1lLqKjO8DjeMoxJoXvh3kbLGCynQHqU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/rewrite-java-7.35
+ .0.jar
+SHA-256-Digest: oUt/8Y44o2gyJUrUl6r3p6BTEYNoW3PwwCHYgSJRV3w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/completions/ApplicationYamlAssistContext$In
+ dexContext.class
+SHA-256-Digest: XkUVz2w+XVNItJq3cOGmdKHxQtfI2dakEeI9NohJ0vM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jackson-annotatio
+ ns-2.14.1.jar
+SHA-256-Digest: 0lW0uGP/jscUqPlvpVw0Yh1D27grgtP1dHZJakwJ4ec=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/ValueHint.class
+SHA-256-Digest: kXTPIXxhGeU9s8uNmiclvlArBx04tYEuAXLZ+af+FFU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/CachedSymbol.class
+SHA-256-Digest: kpBS8lY4rIMqv/QwL6BbvIWMaS2H7tzcBqQhNhXNbwg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringIndexerXML.class
+SHA-256-Digest: qGFwnC08PEgUouOb2uRmOptXpqBT2Q/n2SksoZW1k0g=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/quickfix/CommonQuickfixes.class
+SHA-256-Digest: DADpPmVtdDce87+IeQ87E/aJkVGS+l58KiF1Z1DI7o4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveRequestMappingBoot1xReques
+ tMapping.class
+SHA-256-Digest: +xifJCeyUYl063z3/kG7HnzZuRMtqX0TpEorWy4xFEA=
+
+Name: org/springframework/tooling/boot/ls/RecipeFiltersPreferencePage.cl
+ ass
+SHA-256-Digest: KJXCBS6kYQKzK/Tsp14QdUQxLzAvs6+SDSW/xJbB9QY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/j2objc-annotation
+ s-1.3.jar
+SHA-256-Digest: Ia8wySJnvWEiwOC00gzMtmQaN+r5VsZUDsRx1YTmSns=
+
+Name: org/springframework/tooling/boot/ls/commands/LiveProcessCommandsQu
+ ickAccessProvider.class
+SHA-256-Digest: AFrFIYNil4tWb6ZohXph+EbNXyy9zV9NoltbKI5S+DU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveBeansModel.class
+SHA-256-Digest: TpCxQhR3yhgcrrHQNNt1jlGf4eSx4KK0Gr5TmVCODRU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/HintProviders$5.class
+SHA-256-Digest: kN5LQsQNFpsKL9YCRbh2xf+V1Rg2TrtmkmRzNfVvYaI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jakarta.activatio
+ n-api-2.1.0.jar
+SHA-256-Digest: VujZlAlf5JwoE4xgKRSC9m8Y0SrCtyDpOGl9zmoxNcc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/AvailableTags.class
+SHA-256-Digest: 4hMUGiceKtirZ3B9EVPj6GD0FaRb9J51YEdpnMkQ+LA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessConnectorOverJMX.
+ class
+SHA-256-Digest: QRJUtQc0C+Wkwlof5X9QYxzpV9aNpDFcYX/yQEIGdLA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/reconcilers/AnnotationReconciler.class
+SHA-256-Digest: k3TTGwlASfWzWxDQIQZ5RZ/va5yZq11n4Q5emfpZsN4=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarFileEntries$1.class
+SHA-256-Digest: rCfFFb8sjrYEDpEf1gJmECteI2CF94vT155kCQfDNc0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/common/CommonLanguageTools.class
+SHA-256-Digest: +tki1XgVSV1pYQxFHZ7KJfxDjGWqXrTdgTanxVH9o7w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/ClasspathResourceCompletionProvider$1.class
+SHA-256-Digest: O4dAc/Fqaxdy9qdIoT29jS2ZRp09VCIUNxY+U9IHMEA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/BootJavaLanguageServerComponents.class
+SHA-256-Digest: jc6hjvuE1JOKAWm0W83u8hSdB+cy7WDL8bwuqRHLQ58=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/commons-util-1.44
+ .0-SNAPSHOT.jar
+SHA-256-Digest: 6oVrvFfSYU5fYnWMupLhfnJ0V2ypqbjltbLpcmRzE3g=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/data/FindByCompletionProposal.class
+SHA-256-Digest: szi7CkT18j7tLCeBisIZQzk8Mdw7XMInATWUbFPaSrg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/BeanPostProcessingIgnoreI
+ nAotProblem$1.class
+SHA-256-Digest: kgbguu2f4wj9vjjCLbopMRYwMwiAW6Xvd21xiLn6yyc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/RequestMappingCompletionProc
+ essor.class
+SHA-256-Digest: N0FHH1U7o1c/6JFQbCRcSxoIuSOlMd4gG5KIM06NP0A=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/RequestMappingHoverProvider.
+ class
+SHA-256-Digest: ZN05IilSCOOUMng8Bpra3Twrj2zxwIBmjEMK0RcaQ5A=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/remark-1.0.0.jar
+SHA-256-Digest: yeS8lcYdLjBHGXOZRwR6J6QbPWQN6XGawoD8sqJmzOY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveRequestMappingBoot2xDispat
+ cherServletMapping.class
+SHA-256-Digest: n1YlZYLJAqVZ30UN+GC5MGkQ/ZG7bJwnNeB7okSJtHw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/annotations/AnnotationHierarchyAwareLookup$
+ Binding.class
+SHA-256-Digest: RA3iVh7ntfcJf9osly6GcIU9BLoSrZaO/peEzO5TyNk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/AdHocSpringPropertyIndexProvider$1.clas
+ s
+SHA-256-Digest: Gld8V51TgTMvSXaRNC7XIB/ast6sfa6dc7QwzSY/ahQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/guava-31.1-jre.ja
+ r
+SHA-256-Digest: pC7cnKt5Ljn+ObuU8/ymVe0Vf/h6iveOHWulsHxKAKs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/HintProviders$6.class
+SHA-256-Digest: WppG6XlrT7p7jQ/I6c4p5zFotLe0O2PKSOkubPrnfHQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/hyperlinks/PropertyNameHyperlinkProvider.cla
+ ss
+SHA-256-Digest: Sztqf377EMQtzm4jr1+48Cjm3X8HjqvFPzlkrVHZOP8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringLiveChangeDetectionWatchdog.cla
+ ss
+SHA-256-Digest: LMs9XHOytmqIfKOLYzYZw6BsNV4PYmp5eCxMthywLXs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/scope/ScopeNameCompletionProposal.class
+SHA-256-Digest: ZHScuCmqK6tlxz/JghPFb2aIKvpxWb3hWSPi8lyGUco=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/ProjectBasedPropertyIndexProvider.class
+SHA-256-Digest: tX3WoxAbZAEeXpaLRfnK+ruX1DhE8hvQ/EWb4q20DBs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/RequestMappingMetrics.class
+SHA-256-Digest: Iyw/OLU0Jmjb7MuHxoOrZo/LTEk4MBP0QxWozQ4XssU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.xtend
+ .lib.macro-2.28.0.jar
+SHA-256-Digest: YjoxLAvWNB/su3LrpsAR8yZWHUUUJvuVeksYugdsF8Y=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessCommandHandler.cl
+ ass
+SHA-256-Digest: j3VyFUI3bMxoEWHlKrTKlOseLfBjQ3Re96JD2q83sXM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/UnnecessarySpringExtensio
+ nProblem$1.class
+SHA-256-Digest: jKRdnnu6VWpHG6j9fQHAyKx1SLtPS5D7AilQcQhFknc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/XmlBeansConfigDefinitionHandler.class
+SHA-256-Digest: AzB7Bok5hzz87OdjGJqQXS3iaPsLAKAe35N1K49KPXc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.osgi-
+ 3.18.200.jar
+SHA-256-Digest: 76B3nxwM2rt/y87Srbv4Yy4ejiOcsD7Z833UDGOpddI=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/PropertiesLauncher$ArchiveEntryFilter.class
+SHA-256-Digest: B8+f9kXQNKWUHKgKCu1g7xHvjq0Y9OqFx43aQ56l0HU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/junit-platform-su
+ ite-api-1.9.1.jar
+SHA-256-Digest: 9J4qiYOlLi5VZqFoKNY0oCWSq4v1HSPFwJEhS8FeV7Q=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.lsp4j
+ .jsonrpc-0.19.0.jar
+SHA-256-Digest: ozYTkvv7k0psCeX/PbSM3/Bl17qT3upX3trt65lmM9I=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SymbolHandler.class
+SHA-256-Digest: MLQ/B1Z8WNnkGv7Vn63mQs6er7Is8JwV5zgYUHfhJr8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/Boot3NotSupportedTypeProb
+ lem.class
+SHA-256-Digest: zuH/T1TMYI5JFePn/KoXyL9z0qc2w4bNsYdcT8HMmFw=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/Archive.class
+SHA-256-Digest: qPkcW+U3wWW/NWfFJyy5FCywWDPZ/apkr8W67Qga/Dk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/layers.idx
+SHA-256-Digest: mXLqE5wbyFts7TdFVvH1vend0P0F9j443NJQ13ZPNx8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/Change.class
+SHA-256-Digest: AQ3dC+EhasoO8+oMVIzxzFcCCmy+qmkSr7krzeDbQ3A=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/annotations-24.0.
+ 0.jar
+SHA-256-Digest: /xEvVM6HS4romc/WjwMV2WyfQGozi47KgMdtEOLlovc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/reactive-streams-
+ 1.0.4.jar
+SHA-256-Digest: 91yll3ibPaxY9hhXuawuEDSmj6Zy2zUFWo+0UJ4yXyg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/MetadataManipulator$Content.class
+SHA-256-Digest: 4JxIjuIcftxYhRV2ImLIGqgBXOGqcStxX3etj0lxObk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jackson-core-2.14
+ .1.jar
+SHA-256-Digest: ARQYfilrNMkxwb+eWoQVK2K/q30YL1Yj85gtwto15SY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeParser.class
+SHA-256-Digest: VJDhkMbHJfxaPJdAHdgFuIO7piTqt9A6TVgrHY1Di8I=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/json/JsonHalLinks.class
+SHA-256-Digest: ri0hM2GVEMLfgal6V8Fh9rJW+xE042Mo/mmUGKSPRjo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/beans/ConfigBeanSymbolAddOnInformation.clas
+ s
+SHA-256-Digest: kJgZWpOl1+89xex13KvvRzqNAWtV9UiSAcnuu/OiJDQ=
+
+Name: org/springframework/tooling/boot/ls/SpringBootLanguageServer.class
+SHA-256-Digest: bBr1w71ee7JyzXd2on2XDaeUbtjS2mv86OAEZa37tFg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/AbstractSourceLinks.class
+SHA-256-Digest: 20/YyvTPOeOiIHJ6Zwrm0H7CVY7lAkHcSsNGqAgtBiM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/HintProviders$1.class
+SHA-256-Digest: /XsC5q6uA+QAWWxW48vK+Lbv7D0pNh0fvUBw7w0Bpvg=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/ExplodedArchive$FileEntry.class
+SHA-256-Digest: fDKBP+b4RSgyCIc0TuCE5xy3PdbyNzq48clcn2WEcSo=
+
+Name: org/springframework/tooling/boot/ls/commands/RecipeTreeModel$Check
+ edState.class
+SHA-256-Digest: QdJ+I/V6xfPyurEB5qvWy0Kk0mchBvgBeqrHAMaaqh0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/MetadataManipulator$RawContent.class
+SHA-256-Digest: FUl83GJ1AHi+cBFsc3rOpYdAS3cZSjR+SVzcgsL1WvU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/rewrite-core-7.35
+ .0.jar
+SHA-256-Digest: RLlEdmnUvy6iO6hIQzR054CKPjS31r540dBywXGNJN8=
+
+Name: org/springframework/tooling/boot/ls/prefs/PrefsPropertyTester.clas
+ s
+SHA-256-Digest: slBjvPrblDNmtsjdjpgxDH1rxSxTBqbsQ2A17Wp/8rk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/ChangeDetectionHistory.class
+SHA-256-Digest: mlcLC71yX9/cwjqBcq72Ab/REzGCei8sHYCX2fNtX1U=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/cucumber-junit-pl
+ atform-engine-7.11.0.jar
+SHA-256-Digest: 15cLQgJbWIJ5t8m34aPYzqt2ehHQOksBZCaW3+I6ork=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/HintProvider.class
+SHA-256-Digest: OcvbVxll17mRI0NMCGci2rzq28MtdiVHxQTM4dst5e0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/cucumber-java8-7.
+ 11.0.jar
+SHA-256-Digest: YTX6AWLxfx+2j0ztPVI21IIKnufOYXV/PgEAQ/SBs48=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/completions/SpringPropertiesCompletio
+ nEngine.class
+SHA-256-Digest: g8PfL2hwPfA4k1Qs+OlJn5ixsbGMSS1Z3wvCLMu1QgY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessGcPausesMetricsLi
+ veData.class
+SHA-256-Digest: Xoz6pqht6rd6NeVQ+R9xcQWFyaye9bYNAZrtD+uSp6U=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/logback-core-1.4.
+ 5.jar
+SHA-256-Digest: hgTnwydVawl1kHAfuoja6ExYEWfydGN49zazcmlFI4A=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/data/RandomAccessDataFile$DataInputStream.class
+SHA-256-Digest: Vo5KenH/dcv1/0WCzOnsg3nF/9W/l1FJdB2fAiL3WkM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/RewriteInitializer.class
+SHA-256-Digest: cbCEZ6JCIp7SVVTGQON3cLZlMUSgLjPcA5eZvF9YVRg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootLanguageServerInitializer$1.class
+SHA-256-Digest: F+ab9i037fUjGspZFF2kmUmdiavpgweycDmcnsKOrRI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/factories/SpringFactoriesReconcileEngine$KeyValu
+ ePairReconciler.class
+SHA-256-Digest: 1k38fOzAj249tKvzQ7jaDU7K7BKVynHUzE4kWm7fNwE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/JavaElementLocationProvider.class
+SHA-256-Digest: oZv2mKsqKHWQE12DbtHZk0kbyYYbrxXWA2XZqX/0Wgw=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarFileEntries$EntryIterator.class
+SHA-256-Digest: Uow8ghAx2uvwyT3zStCs5tKdMsH1GzsODeATJ4Uz1kQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/RequestMappingSymbolProvider
+ .class
+SHA-256-Digest: xpOdEzQUx5rdHlUHC1rjcoRBueRm8BYMbSSH2Xiii4g=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/common/AbstractPropertyProposal.class
+SHA-256-Digest: lcNMLS+SU+JUL3leIhcNYxHvUgjhr2rv3O0fLeHNUfY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/BeanMethodNotPublicProble
+ m$1.class
+SHA-256-Digest: nQCawbDNF50yBfh6nEIRUD8qV5oXSbR+TUvXy3m1YcM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveBean$Builder.class
+SHA-256-Digest: jQCL24yRucKvpeXWlf1reZsRsBzWh67ymgEfBgXw3Vs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/DollarPropertyCompletionProvider.class
+SHA-256-Digest: b6eYRtjozvyCfo6dcFdFL0Kznc/q412/j9ZhCqyIIHM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/spring-jcl-6.0.2.
+ jar
+SHA-256-Digest: wyY3XixGkeYBv6GlO1sFGE3lKwQ/6mFSnIk6DnhdvCQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/DefaultJavaElementLocationProvider$1.
+ class
+SHA-256-Digest: LgLdYchOXc7JXYoHY6TYi/hc1ywYjBf9kx6VnpaAlC0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/completions/ApplicationYamlStructureProvide
+ r$1.class
+SHA-256-Digest: lgEEonJLbEAee7BmvqjLvhFWGjxJKwvyoYmMF/dgr5k=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/ExplodedArchive$ArchiveIterator.class
+SHA-256-Digest: 0fj5garsmXfp+VymSZfh0qmfb8NCRouIoeZD1SLb1bQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/HighlightProvider.class
+SHA-256-Digest: exuXrF/exLlwmVoobvh4DIpDCa0ZkMewbLX/QCbXgLw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/ConfigurationMetadataPrope
+ rty.class
+SHA-256-Digest: C6J94ZAyUe68xw7XLcWHg4t2zdksKSqrY1sHE4rK/rM=
+
+Name: org/springframework/tooling/boot/ls/Constants.class
+SHA-256-Digest: UAf8u6colV1LvuQHNtqFIdJiRZ/TMoAm1SoMFsEjJ8o=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/AdHocSpringPropertyIndexProvider$Simple
+ PropertyIndex.class
+SHA-256-Digest: v6em/Osmw2TbjdbyBT85TpS6ARBYMzH/4ZPNHy8wlJQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/BeanInjectedIntoHoverProvider.cla
+ ss
+SHA-256-Digest: 4xjTy0YZXQ5pQ7E1p2yq0fj6W5o98dO/XBbP2RVfMBg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveProcessCommand.class
+SHA-256-Digest: Twh0R8kiPaoftlhmNrK+szl4NFd6sYqUSz+SwtM+uNw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/XmlConfigConstants.class
+SHA-256-Digest: wqNc6OSJaKxNsgoZqz2Kzu1mW4UNnLJEZvWq4cmgEZY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/common/SpringProblemCategories.class
+SHA-256-Digest: LHQJj0pIppuqLxWb3csHjLIedpo9/TNOwY5+M70Su1o=
+
+Name: org/springframework/tooling/boot/ls/commands/RewriteCommandsQuickA
+ ccessProvider$1.class
+SHA-256-Digest: cNQinQHbIdUu3h+veYfxQG4Pd/kg+Thb+to4fbot3rQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/ProcessType.class
+SHA-256-Digest: 5a4hX7sQNzEc157rKtLeiFMUx2u8ClISWkqJB0mJn4U=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/EclipseJavaElementLocationProvider.cl
+ ass
+SHA-256-Digest: q4MwXiVpVCs7OPT0csuo5rMVLgv5s3uLJQsI6vvlzf8=
+
+Name: org/springframework/tooling/boot/ls/ResourceListener.class
+SHA-256-Digest: n1qyoo58qEmZcWMB7a3jjWl8EE3JtC36sFID7KyZRtM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/reconcile/ApplicationYamlASTReconciler.clas
+ s
+SHA-256-Digest: XPzLHQp3UaS7NqFL7cjlJKA8hTfygj1Cvd7jGLQQQxo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/completions/SpringYamlCompletionEngine.clas
+ s
+SHA-256-Digest: r04FQKBNXfWcwKNV+bALZc2XeHDc3CGuXLgahyrre3Q=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessConnectorLocal.cl
+ ass
+SHA-256-Digest: 3h1QN97gkO23ywE7lgt/lYXq3Kj94CZxCAiS2Sk9Wlw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/VersionValidator.class
+SHA-256-Digest: mXvWRrpyjK4fHcVvAp+gQ9QTboW8BPsIzuUo/sV4W8w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/CompilationUnitCache$2.class
+SHA-256-Digest: tl6aM77hZRrjbhuw8uMlTb3i0Z8wekQHJf+36g07zFA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/HintProviders$2.class
+SHA-256-Digest: auYl8PmU4h3L3trJ8StKI+1uSofUoYzr50cRocYdz4c=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/JarFileArchive$JarFileEntry.class
+SHA-256-Digest: 3+yjFAHr+45spE+GPd123/gKr2pEw8olu8MjIJmO5Ec=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/BootJavaCodeLensEngine.class
+SHA-256-Digest: kgTZhfCeOPQmj+Gv6dch1TKQ1P/83bS1CjsnwDbidlY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/RewriteReconciler$2.class
+SHA-256-Digest: 1Wlq/Ra3hD58LweAA75fcCBhd9UeOH4KaXBSM+12GH0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$3.class
+SHA-256-Digest: EfXbbQfNE2MnOuurOhv1uUN7U57+C/CpRZXnDr3RkLE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/json/Release.class
+SHA-256-Digest: iFRYBAa7YJ/I2tpLUYX0YJXnfTpwkudbt+wwkQVBFcU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveBeansModel$Builder.class
+SHA-256-Digest: 60b7XWOG0KQGqmkWa8QqLWwCjU3DNf0CoGRyOeiMuKU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessLiveDataExtractor
+ OverHttp$1.class
+SHA-256-Digest: LBeVqPA2pgy1eIE1Sr37v8l/1KIfmK/lNv/zRgXkS/Q=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jandex-3.0.5.jar
+SHA-256-Digest: N6uY/BDlNB3WaX85gRsI9p3gD7t7iJKe8P72i3ZdtfE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/tag-expressions-5
+ .0.1.jar
+SHA-256-Digest: yKdTZRHzPsMOnlQhiRWeNTWr0wiHrPQXJcaIdb8T29s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/DefaultSymbolProvider.class
+SHA-256-Digest: YG6UAtCsyXRdYVAEDGDcNHHsNgvcmetUR8zteri9DXk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/SpringXMLLanguageServerComponents.class
+SHA-256-Digest: AMWjDZFaj3WwWTOP8Uwj9ii3NXKY+tFWQfmPJPRPn10=
+
+Name: org/springframework/tooling/boot/ls/commands/SelectRecipesDialog$3
+ .class
+SHA-256-Digest: kAsPylgiKPrAKDCWeCb9TGRqjNeFXcoSMwLEvgBz5Hc=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/CentralDirectoryEndRecord$Zip64Locator.class
+SHA-256-Digest: RNdyUJEA3Ni/UFDztDEor6u3nrNtlTzFhkoBOLPLQHs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/RewriteCompilationUnitCache$1.class
+SHA-256-Digest: EYb8Q+ebSkNJlZKpYXOV9C7nL3gY1P2v1aF86ESrjqU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/RewriteCodeActionHandler.class
+SHA-256-Digest: 2SMNigAUBSlhkBELBUaeS8rWNQAlYjGYZamQ+rFXkjo=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarFile$1.class
+SHA-256-Digest: wCHw85pMT1oOSXxpZ/RTfLj2zUiuHnDE/CMS4O+UQ2Q=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessConnectorRemote$R
+ emoteBootAppData.class
+SHA-256-Digest: kyLzAxSxqnlbcqi4CwiFsHCmYfqI7ZsH407Sf3Fju00=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/LoggerNameProvider.class
+SHA-256-Digest: Z0+MbAtz+8y+Ubk8UKePOV8UzMLKOwvIw846ynl4p/8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/quickfix/AppYamlQuickfixes.class
+SHA-256-Digest: Ql8fbOVsR/4ptL/0o8jtnWmYuw/Bvza1BuyVd0pTufE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/PropertyInfo.class
+SHA-256-Digest: c2QPZDczqg3ij2O6q5WrYu2DYY4ItgzNoGz3DpzwXgQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$EnumCaseMode.class
+SHA-256-Digest: MH0WNUZRhUMDAH0UfBNieZnRBJvhbUG3R2Y7lucZN8I=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$8.class
+SHA-256-Digest: cvnKpYls4oB3iJssPKJ583vqT+ig9ek8zvh4wXY0xgE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/quickfix/DeprecatedPropertyData.class
+SHA-256-Digest: ySi0VeIDiSFxNVFaw0rrqJyvlDO3OqJS0OILac0yqlw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/reconcilers/AutowiredConstructorReconciler.
+ class
+SHA-256-Digest: GLnvc6AUVcMmYIBggfsgceD4IXWYTtEYjcRlTBca9e8=
+
+Name: org/springframework/tooling/boot/ls/prefs/CategoryProblemsSeverity
+ PrefsPage.class
+SHA-256-Digest: xV0TwWqKJfUY8+6Lm08Yl2TMY1pRLSJ2A2dpvrA+FsM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/NoRequestMappingAnnotatio
+ nCodeAction.class
+SHA-256-Digest: W4pXfQN4bvjfgQztIHjvKXcWsUnWy8EKPl1xW4Tdc7U=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxRouterSymbolProvider.
+ class
+SHA-256-Digest: bc6BG/HKz4U+KZ8vpn8cmnjlAA2ULBD3Pb3yndjC6Ho=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/reconcile/ApplicationYamlProblems.class
+SHA-256-Digest: ymzuP1c0GjdRM5wqtGnbSqtuqO9TZQCvUqcFNe0bRb8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/resilience4j-retr
+ y-1.7.0.jar
+SHA-256-Digest: vOZ/34xztPQ253kYxZf76nFzy+Sti1HwLfQkmSIX4tE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$5.class
+SHA-256-Digest: XVv8NEdlsUqMK7FqDIzynYPXRTk6nWvZG2iSqYIkuBE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/caffeine-3.1.2.ja
+ r
+SHA-256-Digest: lFqLf1BjctW7UPTgltblfFj2QR/OoRPtHip5HVGE2VQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/MetadataManipulator.class
+SHA-256-Digest: gbIPjG6RUEnicymE3mkAQjNPPSUCSSF4PauY7kLLZ6U=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/reconcile/SpringPropertyProblem.class
+SHA-256-Digest: L7DjS6JV5qYKlsc7j68ZWxGNrrJrjaXLkp+T/0HHYPk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/data/Constants.class
+SHA-256-Digest: hKZmybAxbjFInkW8wDGw3fNya4s8Hdp1Bd/YpojEr+Q=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringIndexerJava$3.class
+SHA-256-Digest: dSehaE/YYcp5SOI2nikqLlCi0WCJFeE3yS1N4RB+ezw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/commons-text-1.10
+ .0.jar
+SHA-256-Digest: dwzZA/p7YE0ffve6F/hBCGZylLK0eL6O0a87/7SuABg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/resilience4j-core
+ -1.7.0.jar
+SHA-256-Digest: kLPmqYVf/8/W+8paT/KuTKvMO3x2Ou+t+UVWojQWi+M=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/hyperlinks/BeanRefHyperlinkProvider.class
+SHA-256-Digest: VJT3OoOFp4BdAh64lAhNEfFQhSq9mzmnq53Hkwgbqho=
+
+Name: org/springframework/tooling/boot/ls/commands/SelectRecipesDialog$1
+ .class
+SHA-256-Digest: qj0x6VJ+3Xi8V0LtELlM8R6iH+VwhXGFe7xBIiYh038=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/commons-io-2.4.ja
+ r
+SHA-256-Digest: zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/SourceLinkFactory.class
+SHA-256-Digest: CEPUUKfQwY/2SdcOCiqdTVfWAnubTkDamhdhud51IaI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/CUResolver.class
+SHA-256-Digest: VMoY1XsCHLm7HUGS7QG7d27TSwx/LQzgtQTb+JhxYmk=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarFileEntries$Zip64Offsets.class
+SHA-256-Digest: uTfvoOrKckAl3FdCnW0t5bJL69h7NLYwQW30FuAk/V8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/UnnecessarySpringExtensio
+ nProblem.class
+SHA-256-Digest: AVgYqwwr7THS1IqfZs6gFiYw5NLCoCEyqH8TuykB+sM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/eclipse/org/json/JSONObject$Null.class
+SHA-256-Digest: uie/ynY92cDWVJXesnYMBdY1MhdcbGRSlxtRrIscvKY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/IndexNavigator.class
+SHA-256-Digest: 8kI4OVeV11qEg2iF0p+UXfBT+9VX6iGwHM+5S72aAn8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessStatus.class
+SHA-256-Digest: t4ZpSn+WC3Uoc0q8nIMzYmPHWjq4RLo5x2RajIUrlys=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootDiagnosticSeverityProvider.class
+SHA-256-Digest: 8f0v8bfAKlIV99VPzXkhxyH2y+J6h3+A0TpjHCkQOI4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/rewrite-propertie
+ s-7.35.0.jar
+SHA-256-Digest: wLDNIKLF+gBJmZsNGNuDiwlBc4jN/RyBktWVBTDBE3g=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.lsp4j
+ -0.19.0.jar
+SHA-256-Digest: 1DI5D9KW+GL4gT1qjwVZveOl5KVOEjt6uXDwsFzi8Sg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootLanguageServerParams.class
+SHA-256-Digest: dcsZFzrwVlWORMq3DSheHkFaaXG5tm6lo5cGm60/4go=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringIndexerJava$1.class
+SHA-256-Digest: TpTMtrqhQ8BGA62LN25WGHE0uH7QgGgU+y0GneSpnKI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessConnectorRemote.c
+ lass
+SHA-256-Digest: OGsJG6VIY1r5q9vG/g8XyGqAAjexfA0q6/CZzScMSlc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/RewriteRefactorings.class
+SHA-256-Digest: Kso2DGzYdb6QDKgYSvwf7b3TWxLhGE22GMO1BuurFe8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/commons-language-
+ server-1.44.0-SNAPSHOT.jar
+SHA-256-Digest: WPLnogGnFWEwpXn1uNPPfQueKcMfqLkgyujMAP/hwOg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/completions/ApplicationYamlAssistContext$1.
+ class
+SHA-256-Digest: aB6hGiOS6+SIhzaiiOK+f1ugM6yh6qPqp88+JCr53mM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/completions/ApplicationYamlStructureProvide
+ r.class
+SHA-256-Digest: D/6GPd1dwGnsG9rw5ii80sbfHFxh0bXMtr++MionFV4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/jdt/imports/ImportRewrite$ImportRewriteCont
+ ext.class
+SHA-256-Digest: nd8KMaED9RTkRzCbVl+3nKKnD42eAmohgm0dYRsslf8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/eclipse/org/json/JSONObject.class
+SHA-256-Digest: RC8ZaigZDlhqeMzwiktFglInekfIzqSk+pRXNg8auAE=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jarmode/JarModeLauncher.class
+SHA-256-Digest: 5UfbPX1bB8O8kYSU0rN/TjNorL3TaRTRUcdov2T5ri8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/jdt/ls/JdtLsProjectCache.class
+SHA-256-Digest: y1sxV7GJqgvQs6hwHBquKLUFIQyWAa97niWyAsElKek=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/annotations/AnnotationHierarchyAwareLookup.
+ class
+SHA-256-Digest: s1NweHSg4EV/JoaBbCj2ExQ+As022jWW2nx7OLkEew4=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/LaunchedURLClassLoader$DefinePackageCallType.class
+SHA-256-Digest: 7rLljytpNsxGzY0jgxVAvIdlE6s/J9STZIuXwzY6bQ8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/CodeLensProvider.class
+SHA-256-Digest: VaZlPLzmBYvvIlWAFzLpnbTBRcpSLnIHR9KsXngVjq4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/reconcile/DuplicateNameChecker.class
+SHA-256-Digest: cq31PEG8fDLaevSN7E/iBfZiWYqtIo8f+Vd89ffKqE8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/ProjectVersionDiagnosticP
+ rovider.class
+SHA-256-Digest: btEuk7P9qFPrIDK72xQu+5mzsPjuQpxpFnPhTsbEKac=
+
+Name: org/springframework/tooling/boot/ls/prefs/LanguageServerProblemTyp
+ esMetadata.class
+SHA-256-Digest: vibMxP0lycgZtBcCuklgsSZXAytaC3kBeZO2alYS3KA=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/JarFileArchive$AbstractIterator.class
+SHA-256-Digest: SzGVQaGMMBuViMAoE91/uGLw6z1S4x3zEnOKdNCRSK4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jakarta.annotatio
+ n-api-2.1.1.jar
+SHA-256-Digest: X2X9r0JO7itV4diCupuzdr6T+wmze4CL5uIuiFHJCf4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.core.
+ jobs-3.13.200.jar
+SHA-256-Digest: 9jA9QR9QE6rF40kYYDkrf93Am1GNDrY3IrCSZnnNnb8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/gherkin-26.0.3.ja
+ r
+SHA-256-Digest: +4NPlTcMxknsoBfjDXu+HewhNeE3mD5DuCq2MUYRRKw=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/PropertiesLauncher.class
+SHA-256-Digest: Ckc/AXlJzybp3+MTgbpusxLmKu7TbTrCFGwUEo+2A+8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/SpringPropertyIndex.class
+SHA-256-Digest: obqA3PFXyr62/foXTZOj67B0xXdlh3x2RAzPjnp8AWM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/DelimitedStringParser.class
+SHA-256-Digest: lKY/EsuZQKWBti10AjjR7YJSI5R+QNsKXbPnyZ8mYYk=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/PropertiesLauncher$PrefixMatchingArchiveFilter.class
+SHA-256-Digest: yZP2RdsJ2MgWu1B94kR893WGOzdo/dZwNIUXsuh/1R4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/RewriteReconciler.class
+SHA-256-Digest: f2FW2Y5Y21rTiAou19iGLIFdGiCLti70wFgCWa8cjRI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/spring-web-6.0.2.
+ jar
+SHA-256-Digest: tbCwleZN8R32Ec4f4UOIOgovWL5D8XZtEqzOHwbe5xQ=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarFileWrapper.class
+SHA-256-Digest: 4DXWA7clDzLRjZ/1anOB91pcsz5rae92R5fL5yqf+0g=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/completions/BeanRefCompletionProposalProvide
+ r.class
+SHA-256-Digest: gGtBcJxypWiKXDMhmGnLNJglOoDTwCK0ZS/mttpPeI8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/javax.json-1.0.4.
+ jar
+SHA-256-Digest: Dh3sQKHt6WWUElHtqWiu7gUsxPUDeLwxbMSOgVm9vrQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/WordHighlighter.class
+SHA-256-Digest: ikjiXESlZn2Zs8PWGpl9KBmQQgDvxjE+3jHBWOqTaDA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/json/SpringProject.class
+SHA-256-Digest: 6lXoU7sIpo9apHMJkWqOlf6/IIfzAuG2XLrNthrSF3g=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/reactor-core-3.5.
+ 0.jar
+SHA-256-Digest: e8tnFp+GFxqTQOJEoCZoTI41vfGQX4zIaYpYU/KKlvs=
+
+Name: org/springframework/tooling/boot/ls/DelegatingStreamConnectionProv
+ ider.class
+SHA-256-Digest: 1arrRpBoD0K++S150bfsPZziVMjmIZOlWZENDPDyfBc=
+
+Name: org/springframework/tooling/boot/ls/Startup.class
+SHA-256-Digest: QH8wax60qUyNxKpmI9v+yDoFKRLoMoVjj2l/0Al6bWs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/BootJavaProjectReconcilerScheduler
+ $1.class
+SHA-256-Digest: ua259K/dLL7R5+8KAXuSYPD4axyEIMa1lj/7qON2WmU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/ProjectServices.class
+SHA-256-Digest: 3nTIJFjUFUWBdTu1tYPGMSwIErsUOygQ/mvtrbmSYBU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxAcceptTypeFinder.clas
+ s
+SHA-256-Digest: C9p4gVKq3OhTAcWfv6ZXXeBtvG1r7nB369ETz2U5/IE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveBeansModel$Parser.class
+SHA-256-Digest: PalMOPbI6pyyp1XZcHEbP13VZ7vnXhp3sjyGAsHtxfQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/value/ValueCompletionProcessor.class
+SHA-256-Digest: oYeuLaXyC9NmSB7B2K14SgGUY7zSEVDapV2tqYAgyY8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootLanguageServerBootApp$3.class
+SHA-256-Digest: hw02F+cTJ7skcMSFk+p7Th75mVjVLpt+DX30QNWnFNI=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/ZipInflaterInputStream.class
+SHA-256-Digest: Z4yMOixKt2hDpYIBsxDUFLwyfu/abl2aBoS2NPfiAPA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/ASTUtils.class
+SHA-256-Digest: SUnjeHFRPUO/dM/fai/TpgIe2tlTdz/elW9GVtsLzkc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/cucumber-plugin-7
+ .11.0.jar
+SHA-256-Digest: 2Rx2L/T2thi7iBBdMSoug9OZJqoJvCl/Wq/LtWF3SNU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/PropertiesJavaDefinitionHandler.class
+SHA-256-Digest: cLGjjOFuQrsBmg5/FVhgMp8Ar6L2H4h3Y3HRnE1FMOU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/JdtJavaDocumentUriProvider.class
+SHA-256-Digest: 58UefvFItyhHPdpnk3mNFveMWWoR3p33aRTyKCxofvU=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/data/RandomAccessDataFile.class
+SHA-256-Digest: 04Km5b+4xwMsbVio+GcPgkWHzKE1KVg/YyOXH1wRDmM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/BeanPostProcessingIgnoreI
+ nAotProblem.class
+SHA-256-Digest: uiPaFUadQ8AHQZSNQMpakvfdt+BHQhHPDpMHKTUC4jI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$6.class
+SHA-256-Digest: BLmubO7iRedN7GkbMBZFHmLYr6w5s2AiW6yYfDd5CDI=
+
+Name: org/springframework/tooling/boot/ls/commands/RewriteCommandsQuickA
+ ccessProvider.class
+SHA-256-Digest: HymZqz08TfU0pNdumwQv3XhQGsx89hmj5dRoFB1g9XA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringIndexer.class
+SHA-256-Digest: JhiAtA10kam5Obd1CWpMp3NOmp7yRUi7bAMhLhy2hs4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtilProvider.class
+SHA-256-Digest: u5Q10C4AiQRP6jU6wqkcM5ViqSXf/S9Ql7XUESeR+S0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/scope/Constants.class
+SHA-256-Digest: 5kYOV4WjPr1vql3/1cLVnayP5mV8RqTPFQ2l02gFpdU=
+
+Name: org/springframework/tooling/boot/ls/prefs/ProblemCategoryData$Cate
+ goryToggleData.class
+SHA-256-Digest: dwLXvASTWlHlri+JaCiskdeRZzZ8sIdTcLZyuNxMn9w=
+
+Name: org/springframework/tooling/boot/ls/prefs/ProblemCategoryData.clas
+ s
+SHA-256-Digest: RmMepc2UIozwLeNhrMlFocT2xsYcYkqa5iiCo008Xa4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/jdt/ls/JdtLsProjectCache$JstLsClasspathListener.
+ class
+SHA-256-Digest: pDy6DEXKRWPOIcWA6HD2mnQEFGZ1CHDXl68SOzX/WsI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/DocumentContentProvider.class
+SHA-256-Digest: e9xCOEhnlrx70zOT69hIJWi7Gu8rLHdGZzgAndI1ir0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/SpringSymbolIndex$1.class
+SHA-256-Digest: xHGwkJSBKrQO0c9xA1qZUeXxKt4sQMF2h0g8WWbuDfM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/RouteUtils.class
+SHA-256-Digest: IUZ6XLUMThSI8T/sfrI0eCq/qJ8xz5hfsBwvT++mf6A=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/ConfigurationMetadataSourc
+ e.class
+SHA-256-Digest: Z+6OKI3YxftZ7zEdZEscHifQPts8urKwStCpjY9G7tI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/ConfigurationMetadataItem.
+ class
+SHA-256-Digest: xKxNvf4G/isdKcJ0FHNGjnVDfncu7oAY364QhSaqSv8=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/LaunchedURLClassLoader.class
+SHA-256-Digest: ky0uJjWpFDvl0R1ITYdyGs0OJLecg9Pc1+gVW3/nr7M=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/XMLCompletionProvider.class
+SHA-256-Digest: Inw0acpT41XtvPYXDdTzHtSm+Y1/QDWf4Kh0sdRBfxk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/scope/ScopeCompletionProcessor.class
+SHA-256-Digest: TiM/7qrD80wVbTaxiANtupx4irE2VRgM4+Bmedehr2Y=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/JsonReader.class
+SHA-256-Digest: JvxE7bRJ5b4Tn6NpNu562JE1YQH0ZgXAz1DUUH/ACgc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$7.class
+SHA-256-Digest: p6oMlTDuHzmqwTkU2Dbw/zKx2bOQdbM/8ya+yc5yz3o=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/value/ValueHoverProvider$LocalRange.class
+SHA-256-Digest: rUIQdPuSGSb4vMfQe2Ry+5XHCaqgcba6l5mSv03X1p0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/completions/GenericXMLCompletionProposal.cla
+ ss
+SHA-256-Digest: LDUVrC5bfviOH8amnhNcqnqmlUPQTfndzfg7Hkd2zys=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/xml-apis-1.4.01.j
+ ar
+SHA-256-Digest: qECWgXZkVoS7Aa7TduBnqzlhSIX57uRKvjWl8g6+f60=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/commons-codec-1.1
+ 5.jar
+SHA-256-Digest: s+n21jp5AQm/DQVmEfvtHPaQVYJt7+uYlKcTadJG7WM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessDescriptor.class
+SHA-256-Digest: AGpFtPSrczNS6MCxlVaVbdapVjnSQdXrWLFLc2NceuI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/DefaultSpringPropertyIndexProvider.clas
+ s
+SHA-256-Digest: 5VZQzuxZ7L+1JJUa2eWxZK8ZHIAeBRYVCkU9tY8qa1U=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/JavaCodeActionHandler.class
+SHA-256-Digest: ydEv45oiwcGEVskDq4HUsj3fXLyNmGbJPTFqqpB80ho=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootVersionValidationConfig.class
+SHA-256-Digest: 7xBhu3PSEuwc7QfNfCsVoEXYQ0OAkZv69a5zI9XRXhI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessLiveDataProvider.
+ class
+SHA-256-Digest: aFwt7IbW8QFNKzzC/Tkoh2y412OlR8TdwYsexqBjQgU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.core.
+ filesystem-1.9.500.jar
+SHA-256-Digest: DEgQofpuhxwLsjspCQpyyDt2CvgXFJXBMltHEbkZBys=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/SpringSymbolIndex$2.class
+SHA-256-Digest: 8ibWSXvNQyU0chUPJncZ76K66w2rm5/4AZZrN7ciCsk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessLiveHoverUpdater.
+ class
+SHA-256-Digest: IcCsW0U10CmSPRAtlAPdu5Fv5CM45R5kOhtc2ZW452s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/SpringSymbolIndex$3.class
+SHA-256-Digest: Y4oiD8JPAa1ROQ0TmHlNmhBgW/pNmPuQL9+8qa6f0oQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jul-to-slf4j-2.0.
+ 4.jar
+SHA-256-Digest: EaEJFSCpCW56vY1noGYbyqg7dMBhGYFPXaFS0SVbNlo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.core.
+ resources-3.18.100.jar
+SHA-256-Digest: RgeqKv/Ch3g+SY3AGpPQM4pUn/77AN9LGK74gkYiEAo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/RestrictedDefaultSymbolProvider.class
+SHA-256-Digest: dYfDUD3EjFuIsnYaKN8J/jjk19EFDksM/vjnQaea0+c=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/spring-context-in
+ dexer-6.0.2.jar
+SHA-256-Digest: 96LRSYOyOOF1eEg75QazqqSOWDBj+ZIUZlrLg1kzr9c=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveConditional.class
+SHA-256-Digest: WNR/QRIMXL1ZiQ5qLDa7k/SG1AAzKUWOrl+s7RHb+28=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$BeanPropertyNameMode.cla
+ ss
+SHA-256-Digest: qQVXSiyEc1y0bukgIhgmw7EcToh0T5tno92EudREp6o=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/DefaultJavaElementLocationProvider.cl
+ ass
+SHA-256-Digest: PzleHaWt4LvLyic2K5fIJXJc5f5xBQQZNEt0gfBsW7c=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/spring-aop-6.0.2.
+ jar
+SHA-256-Digest: 0GcvKAg1vaWr5GPTflqgzWbYnCMEZ+JmxESRTRXDXGU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/completions/ConstructorArgNameCompletionProp
+ osalProvider.class
+SHA-256-Digest: 1QU6Cgp7RlUC3q+pu4QdCR4BaQbwPGzi3gBTq1iD3as=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/AbstractInjectedIntoHoverProvider
+ .class
+SHA-256-Digest: FN3GI/5cqJd1a/vdbC7zUgcN2pcZt1ze7Pw8+P5/1QI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LivePropertiesJsonParser2x.cla
+ ss
+SHA-256-Digest: tC8UMz5bS+hrAOC8s6urZf2p2pwEqG4vvwGNyL+4FNQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/BootCodeActionRepository.class
+SHA-256-Digest: oXujgD66YSbw/X/zmokHpuUr5Yk9m4y3e8hL6aDnMu0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootVersionValidationConfig$1.class
+SHA-256-Digest: c14EH5DC0PwUdl2MSS4fGs1RHwC1txNtPhiPFmRbfr4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeParser$Tokener.class
+SHA-256-Digest: prNaQmtgPd6Ir7QaIGjeJZI7jkdgD7cJUtp0i7DgSO4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/BootJavaHoverProvider$1.class
+SHA-256-Digest: jBAmZHSAydXLBPh30YeB2QD6mDv9Gol8J5rqzhwnvjQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SymbolIndexConfig$Builder$1.class
+SHA-256-Digest: Gvh0BkV8Y/afKZXVNz3Nb+T1dzGNRKJRYk06sDDBVaA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/ValueHintHoverInfo.class
+SHA-256-Digest: wf9x1jXLGP5PucVUn0QSXQ5IkdBPaf3SbaMtHCxxHgI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/autowired/AutowiredHoverProvider.class
+SHA-256-Digest: 9xfg1WQs8r61eW3zanXeKJzGvoKegeXe9+1Q26MNfP4=
+
+Name: org/springframework/tooling/boot/ls/commands/SelectRecipesDialog$4
+ .class
+SHA-256-Digest: AiNVPYE04KrfNJuG3TlgLJkZGuuc6OSJjpqWs273glM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/rewrite-java-8-7.
+ 35.0.jar
+SHA-256-Digest: YPPohSsr8wk76DTfM+pj6aVSnK3JE5REpqZYVefVOSU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/AbstractSourceLinks$1.class
+SHA-256-Digest: Qxh5V0wUG56f3lAwHOl4v+22stAJTbVjx0f0hS5gSSc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypedProperty.class
+SHA-256-Digest: ofQCWZeokvWiGGWyzrJrZh3LzaUPfsObkZPI1+74pQM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/EnhancedSymbolInformation.class
+SHA-256-Digest: g9ibm9F61IJl0DPnmEDyTTW2epOra4sIACBx7bu3Xq8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/listenablefuture-
+ 9999.0-empty-to-avoid-conflict-with-guava.jar
+SHA-256-Digest: s3KgN9QjCqV/vv/e8w/WEj+cDC24XQrO0AyRuXTzP5k=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarFile.class
+SHA-256-Digest: RFwxemFwUL1m/nrnrdxfM07LPe8dJPl769wnvocJAXA=
+
+Name: servers/spring-boot-language-server/META-INF/MANIFEST.MF
+SHA-256-Digest: T4Mw9BkbC/mat98lC2KRlx6nJ9pUOAVtMvP0ZWnjmy0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/quickfix/AppPropertiesQuickFixes.clas
+ s
+SHA-256-Digest: ZIhiO7fV2ngXVYzum76MSLknaHCrOUUSX67turMLM1o=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/reconcile/SpringPropertyProblem.class
+SHA-256-Digest: l1JIOZQ+ZD9reY821TGjsv15J7qYMID4S5J8jgxoZlA=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/AbstractJarFile.class
+SHA-256-Digest: Ce3KA4QxbhA/Tome7/4u8JhL2rRUhcIJ/OzjGHDkMFU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootLanguageServerBootApp$4.class
+SHA-256-Digest: gwOV5X+mDgdZ/5pJOi3kcjpETDGiTiHJLnzbYjmJIAk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootLanguageServerBootApp$1.class
+SHA-256-Digest: 2NRDWBTR0ygn8eL1L8E+YZ+Ml357uKEleNruvCKvX2E=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/BootJavaReconcileEngine.class
+SHA-256-Digest: SPHxtWMg+wVuLV3nHY+IekmYrKqGSNufGVyhkcDDFKA=
+
+Name: icons/spring_yml.png
+SHA-256-Digest: gVgTyEnFNqoFLD5nrgWP/Bj/dPZ1M8c6eX7uz5+Hb3I=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/micrometer-observ
+ ation-1.10.2.jar
+SHA-256-Digest: cEEbP2eew4D9guFLBVMzzV4rEBNN18gQcwgu4whXmWI=
+
+Name: org/springframework/tooling/boot/ls/BootJavaPreferencesPage.class
+SHA-256-Digest: ioZ8gt29YyDiv28XVOI+yb8+Syc/vu6BDeO+JXkLk08=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil.class
+SHA-256-Digest: /ZM6+PlTaX6hQYU573/g4+/B3YzpwQz2CnpOq6VkReo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringIndexerJavaDependencyTracker.cl
+ ass
+SHA-256-Digest: ziDuUd/GcUlJI5/FyI8pjf7Y+fzNPWLqEdN0c6WkTiw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/SpringProjectsClient.clas
+ s
+SHA-256-Digest: 94J2/ZhqQfTkUUrTJvnKATK/88MFDbK8PYWCmSOq4jo=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/ExplodedArchive.class
+SHA-256-Digest: H4GJKauH7/QR53oqlrmGqQ75gLiRjdXopNEcqhPJ3Po=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/common/RelaxedNameConfig.class
+SHA-256-Digest: 15q869WTYlvZKz6MSNGU/4lBp3SPLihFDT6l1MI1crE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/value/ValuePropertyKeyProposal.class
+SHA-256-Digest: D2nIT/IGeRwYb6Kwz4hr5YcHGXv4YMzGJ6IkWzMcU7w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/util/DeprecationUtil.class
+SHA-256-Digest: d1ZZi+1ubHGHBknDYLIJKjt5psGaTHyecqReAeoPKLA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/data/DataRepositoryDefinition.class
+SHA-256-Digest: NkKAw/MFtFW5sW9QJvinBtLPgtBl0OcxWXFpK7dy4TI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/SpringPropertyIndex$1.class
+SHA-256-Digest: TrTB8PN5dxSBRrlk5LDNjqNWK/9yiN1yBVKOR0SOTMc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/RewriteReconciler$1.class
+SHA-256-Digest: QtGBbhInOd+l/b2CWtOxQ7IeBa+vZ5FEZVJt4Sx9RAc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/jdt/ls/JavaProjectsService.class
+SHA-256-Digest: Buow9iLzn+lw85zGpy7aF3Qnv9MSOnZsGbaGyt8W7MQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/cucumber-java-7.1
+ 1.0.jar
+SHA-256-Digest: xrDLDq22L74+gmuLyne0kv4KhMWclxJa5uFx7SMR3Wc=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/CentralDirectoryParser.class
+SHA-256-Digest: dcWk/05LYBTizXibsHyTDS9npfRNegAw9c0T1bEO4aA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/Deprecation.class
+SHA-256-Digest: Dksf4TRptTCSj/61bU+y0lcAg19ZVu7siedasGEAYNk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/SpringPropertiesIndexManager.class
+SHA-256-Digest: PDrQRgjFYJvZfLDY9Ka7T6E/oJWzFxwMTa5nhKvjCdA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootLanguageServerBootApp$2.class
+SHA-256-Digest: eDtHBhPF4Sgoh0m8gNwYu1FfVOlrQubTBj95PO45OUI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/factories/SpringFactoriesLanguageServerComponent
+ s.class
+SHA-256-Digest: JdOFiEzvccEGYllsz7IrvxOQ9SnZvD4RoYWPjKgGO1E=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/beans/BeansSymbolProvider.class
+SHA-256-Digest: gtCKe9G/fqvY8KZ20ygVaqTFf+BYg0B+oWmQKq+pwYU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/BootJavaHoverProvider.class
+SHA-256-Digest: ZPu1X/YZuW/fTQz2o6lGKjyY87Dw5bWDifHMNB5jD1U=
+
+Name: org/springframework/tooling/boot/ls/prefs/RemoteAppsSection.class
+SHA-256-Digest: 5GepMdeOL01RKTj44ADS6+SUl9kvRlPQt8rV/V+wipM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/commons-compress-
+ 1.22.jar
+SHA-256-Digest: U9BKDvxyI7rsqjA71dKY6wYA5rgrQHb5zs1Vi5e6dgs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/commons-lang3-3.1
+ 2.0.jar
+SHA-256-Digest: 2RnZBEhsA3+NGTQS2gyS4iqfokIwudZ6V4VcXDHH6U4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$11.class
+SHA-256-Digest: TFzTx81+r4rrl4Rfv4HR+XIZNA7OsScg3YXzLwxRH4I=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/jdt/ls/InitializableJavaProjectsService.class
+SHA-256-Digest: KuuROjgdCUTw/fqHaMWlZW2Ya0chtFV+AdeGDF6cfgU=
+
+Name: servers/spring-boot-language-server/META-INF/spring-configuration-
+ metadata.json
+SHA-256-Digest: iN0mCkGfM3JiWtgdJD2Tuyac1mMo6MGUuO9JzUcCRIA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/completions/PropertiesCompletionPropo
+ salsCalculator.class
+SHA-256-Digest: RVjEeAkyAO5vinm+4hHosDJSPTIuaeADnaqnA5YQs8s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/hover/PropertiesHoverInfoProvider.cla
+ ss
+SHA-256-Digest: SxLu8xjg0pJ4FlzGnD1hGbLbbdhUGdwYzO015Zfj/Mo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/beans/ComponentSymbolProvider.class
+SHA-256-Digest: ID9CxXXpemm4Ifght7uJ+p6FnZytBKGP2We1nFs3KvY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.core.
+ contenttype-3.8.200.jar
+SHA-256-Digest: 0ycWv7A+fzJEpd8PiBao8LZkSox4L1QGKvijsA4bTkU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/PropertiesLoader.class
+SHA-256-Digest: ytHpQqSDKRcSHYuVsp5cbyZo+SCzBvl61s5IDml0qd0=
+
+Name: org/springframework/tooling/boot/ls/commands/RecipeTreeModel.class
+SHA-256-Digest: iNjQKYJVr6a8bkdwBC1jbSuRTozk/vdBUhsgSFoNBk4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/rewrite-migrate-j
+ ava-1.16.0.jar
+SHA-256-Digest: BkasrrsJrVE8FNnsMF1io6JkgTpj0qxPbXNEXxsWYlg=
+
+Name: org/springframework/tooling/boot/ls/BootJavaPreferencesPage$2.clas
+ s
+SHA-256-Digest: iLoA8+patzWz501VlGKEBfL18rNYwk6VgtEUiXTb63g=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/reconcile/PropertyNavigator.class
+SHA-256-Digest: b5PDTJJy5yxeR7yqhmYXYYbhp5HB7VF34e/Nu9mKl/U=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/NoAutowiredOnConstructorP
+ roblem.class
+SHA-256-Digest: FLUFA63merk3IfRtyhtnAVb5j9YcjRPfmptCV3kHauo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/Annotations.class
+SHA-256-Digest: oghik8lXCRlob/IrJQaKuhe98Xf4zVLTgrvO/4hZQrY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveConditional$LiveConditiona
+ lBuilder.class
+SHA-256-Digest: Rj0C565owhYuF6K+sc+X8p6Pyl/glsUk81uL3Cw0gvs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/gizmo-1.0.11.Fina
+ l.jar
+SHA-256-Digest: pUv7ttzOkpgTRZWzzR35YbxzJGiCXybuUpbytfiMC5k=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/StsValueHint.class
+SHA-256-Digest: xbv27DjOKfuyNqTwDVLr4nsP8jiylnLWRNXzQuKFvYs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessConnector.class
+SHA-256-Digest: Nxf+QuGfVOjnRhVWQSgPQjyk6/yyhCQdQjW7EmVkRNc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/ProjectVersionDiagnosticP
+ rovider$DiagnosticResult.class
+SHA-256-Digest: rl/cpaFtwz5Z58XZsOtip2uvJwCBKj1hzr49jbtNt8U=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarEntryCertification.class
+SHA-256-Digest: hBaYtPqOXG4r38bwCY+wqwSijQ6RKIt4MsnzLy40U4c=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/CompilationUnitCache.class
+SHA-256-Digest: NUEl2am8mNZj9COB1Sf8WOY57+DAn5jy4Vfqw4qmx9E=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/VersionValidationUtils.cl
+ ass
+SHA-256-Digest: JIGoLyqFpUQSGLV960LvPYkI8MjuUnrdCoq1jXIEU4U=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/ClassPathIndexFile.class
+SHA-256-Digest: EC+LoLOED9CGQXu1WnZG+/D2tL+CHntuc22DGysi8Aw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/snakeyaml-1.33.ja
+ r
+SHA-256-Digest: Ef9Fl4jwoteB9WpKhtfmkgLOus0Cc9UmnErp8C8/2PA=
+
+Name: org/springframework/tooling/boot/ls/commands/LiveProcessCommandEle
+ ment.class
+SHA-256-Digest: 0mgLOo4U8M1Y9bPRA0V5IhHwPk5RFvTJzq5KnEPL2o8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/SourceLinkFactory$1.class
+SHA-256-Digest: ZfacGYw1gvctr6go6Gtf+L6EGeQ9ryD1Bq2zVGcsl2M=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/json/ResolvedSpringProjec
+ t.class
+SHA-256-Digest: j6wmQItBcrz+yV7xUtgY/zv8eAvyd4ED6TkLgKy+COI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/beans/BeansSymbolAddOnInformation.class
+SHA-256-Digest: 29FJKCGpgo0Cr3vvRvnFQLn6UAUWfmfyH9uE6BVWn0I=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/json/Generation.class
+SHA-256-Digest: gfa05VVnJWIO2F6T/hWhj93vTNV4y9FmkTiHwYGaqSA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/spring-boot-autoc
+ onfigure-3.0.0.jar
+SHA-256-Digest: /C9tTLOCrdb4Uc1KwMaCxjTBCdG7g2AXViNquOHR3do=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/commons-lsp-exten
+ sions-1.44.0-SNAPSHOT.jar
+SHA-256-Digest: doDchpGXv6rDMolFPGTMd1y2zi4FBzDPMfh0eQUSpoQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/data/DomainType.class
+SHA-256-Digest: K7Z5DQT426sb2ncQo/B6TLntJEO10BbTpd7GuHIMuv8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/snippets/JavaSnippetManager$1.class
+SHA-256-Digest: +1iGXdQExiHNHpxU9bY/GHj5VPs+8Ts0laz0MwyfP6w=
+
+Name: icons/spring_obj.gif
+SHA-256-Digest: fuf4TXWgL8eWGeTN97+d9nf5yPZ6oQu8wM4vvF7b8hA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/XMLElementKey.class
+SHA-256-Digest: Bscw6OFg2XOsXsJArxmOHHZ8L+WxiUiy89x9CbDtSho=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/factories/SpringFactoriesReconcileEngine.class
+SHA-256-Digest: yKgCaUViZacf8a3B2SA1zkCwZTRuDbs/K4+tSYeNplI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/quickfix/MissingPropertyData.class
+SHA-256-Digest: 9DaRXN5QmHmt12/BdDOOC799ZkI86KKmgGE+5HFX1Xs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/SpringSymbolIndex$InitializeProject.class
+SHA-256-Digest: MKzhKGDez4q4afPBG3Bk57Tn8ulzwbpRbNF0TfkDMHU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/javax.activation-
+ api-1.2.0.jar
+SHA-256-Digest: Q/3vC1ts6zGwQksgi5MMdKtY+sLO63s/b9OuuLXKQ5M=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/snippets/JavaSnippetCompletion.class
+SHA-256-Digest: HP6TTUshJoxX1uQy9o3P/GocLV6RhkqhhvRw94zoe7c=
+
+Name: org/springframework/tooling/boot/ls/commands/SelectRecipesDialog$2
+ .class
+SHA-256-Digest: lE46vhIi2f9Albjq7Qyaj7fisF4CvhEUZiNr5+6zDHY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/json/Link.class
+SHA-256-Digest: hbDwlrkkjzDhlYdnoBqs9yFILBE1MteBVB9VPKZT6so=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/ActiveProfilesProvider.class
+SHA-256-Digest: kl5Bk+jc4ntWN3RCjFd/Luaqbw7dp8BOoVCboXvb37I=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/common/IJavaProjectReconcileEngine.class
+SHA-256-Digest: 3XAOZ/YY2uW+eV2xLMljpssFD5m0OxgyqYkbb/XcWAI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/osgi.annotation-8
+ .0.1.jar
+SHA-256-Digest: oOikw2K9NgCBLzew6kX7qWbHvASdAf7Vagnsx0CCdZ4=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/CentralDirectoryFileHeader.class
+SHA-256-Digest: yU0EwhSZ73rR4pXZj8EnlcFrpTw5o67guSmibAOnNg8=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/JarFileArchive$NestedArchiveIterator.class
+SHA-256-Digest: z6U9Pft521FnZIvigWEF4ck9ovmzTacYzD626pS31cM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/DescriptionExtractor.class
+SHA-256-Digest: xoY5lNiNGQSNAj8FbinoQgRttlBpf0YFX2yMst1By3E=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/Launcher.class
+SHA-256-Digest: 2aL3ViElV3NJPY0kppFDCHs7I0AZVPviklI4Flvqcx4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/CachingValueProvider$CacheEntry.class
+SHA-256-Digest: 3S41lBcRPhQ5fYhgQuyIKQoDWO3SWqK68I/DCXgfkok=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/reconcile/SpringPropertiesReconcileEn
+ gine.class
+SHA-256-Digest: bj+gmAc0gHkPaK6bFAunP105hhSou9p6rEvUqDIVaYA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/HttpActuatorConnection.class
+SHA-256-Digest: dxjMcpzJAyV5ESS64AE6D/EZd759cAQh0TbvUxPsnb4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$2.class
+SHA-256-Digest: tCB1zhdGQv6uPdixs+nSKsN+R1SJR66jZA6CJq3DLT8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jsr305-3.0.2.jar
+SHA-256-Digest: dmrSoHg/JoeWLIrXTO7MOKKLn3Ki0IXuQ4t4E+ko0Mc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/ClasspathResourceCompletionProvider.class
+SHA-256-Digest: L+aW9LKqE5NAEjcH1iupX6H2KHosw0Ui75FyW/33Avw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/SpringSymbolIndexerConfig.class
+SHA-256-Digest: 3m8NiP0GCA3Kec9YoN8X1vu/3BPi5umMdYNRJ4dOhjY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.abego.treelay
+ out.core-1.0.3.jar
+SHA-256-Digest: +l4xOVw5wufUasoPgfcgYJMWB7L6Qb02A46yy2+5MyY=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/FileHeader.class
+SHA-256-Digest: j8OOCEYjeTLxeRZXeQgHs9laW0FHD61qqnKbUUS2FiM=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/Archive$Entry.class
+SHA-256-Digest: DRfgNS9XNW/P1FYs9Ed+pJwpFcULEpOLi6ox6cZZPNs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/StartupMetricsModel$PropertyVa
+ luePair.class
+SHA-256-Digest: X9Vu+WHSJ3edrAQ+eLZbamtidaLyODH2qzIE83iUd0A=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/PreciseBeanTypeProblem$1.
+ class
+SHA-256-Digest: 8Jwm+flg7Ehmv0dNyQcYEp9d2Qdb66VGXnDiTTKPjPE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/BasicHintProvider.class
+SHA-256-Digest: CkcweCeIEdFkMmmxZgFOUhD8RCKZ3hrQZDxlhQVltv4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/AutowiredFieldIntoConstru
+ ctorParameterCodeAction$1.class
+SHA-256-Digest: 3dnak08w/Ap/EQlOcwn93F2AT+QP79RRV5KQNuH+4kk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/SpringPropertyIndexProvider.class
+SHA-256-Digest: 97ZJiMDZkf9H0GRjuKrhxQrCNCLVFrGvTAHZHtAZrSc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/Measurements.class
+SHA-256-Digest: 3vQJjuH+hqIniuzbViX7GpILY0/8v0ohGqoi67LNTFo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$RadixableParser.class
+SHA-256-Digest: Z/FjL2wu1G5kCroYoQICPw4EALfCQpJiPvxMW1sx5kg=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/LaunchedURLClassLoader$UseFastConnectionExceptionsEnumeration.class
+SHA-256-Digest: bl15tm6mNbDlg9RKWguq5vvqjR7j9UNy2gEY1sirDkg=
+
+Name: org/springframework/tooling/boot/ls/BootLanguageServerPlugin$1.cla
+ ss
+SHA-256-Digest: wZ7NU2h8Uj1LT3SAjwyke9gkqcLNaIvKnrzitu4i55Q=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/StartupMetricsModel$StartupEve
+ nt.class
+SHA-256-Digest: MT+zv/0DpCMYN/7amo4lo2TOtMPWOFPB6iT2jH59x5s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/ConfigurationMetadataHint.
+ class
+SHA-256-Digest: QLfZm/VSqR6wPS/EdBf8nSn/YYwX8djv6ex1iP89qmw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/StartupMetricsModel.class
+SHA-256-Digest: YfppbWZQTbBOVkJfJGwZs4E+f47NnEpH+h9zqWovwTA=
+
+Name: org/springframework/tooling/boot/ls/commands/RewriteRefactoringsHa
+ ndler$DurationTypeConverter.class
+SHA-256-Digest: 7jXpqDJ1vREaCtI/Fg4mWgq3AySya/0Ycw4vMXuBFuA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessConnectorLocal$1.
+ class
+SHA-256-Digest: zvIUzrQS8Y2hFoMuGoMNFTvCvxSOuX8wgkr4Tzl70hw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/reconcilers/JdtReconciler$1.class
+SHA-256-Digest: d5OpnzCfFbZlEYHNQ69fYi2fbR/WK/GXqHeunqmLdaM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/icu4j-69.1.jar
+SHA-256-Digest: mChvPVOLx73ofXC/LKw6zJ7Xt/6UHbXpSow/oTUW+WM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LivePropertySource.class
+SHA-256-Digest: VhGmd5mmSl8Fo3GEmw2ldkFty37K5IYIXNK9z7EXvDU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/Boot3NotSupportedTypeProb
+ lem$1.class
+SHA-256-Digest: L0fbJxhQVeKCKwRuyWcysPyvfEgt+90cx2XCzVOJmgE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/scope/ScopeNameCompletion.class
+SHA-256-Digest: 3QM7f1A2w8djyEOf8OXFf+TpIV/e1J58dr+cuO3cAHo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/micrometer-common
+ s-1.10.2.jar
+SHA-256-Digest: QHS8TjQMxG7E+pizWTjD2sNiT/BIu93mSrrEgcMpk6k=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/AbstractDiagnosticValidat
+ or.class
+SHA-256-Digest: K31X1watxEHSJ+hE3biBEk2zD94rTtaNouK0ko4cTQ8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/cucumber-gherkin-
+ 7.11.0.jar
+SHA-256-Digest: flXFiqLH4HAaEfEhLMIOPgGN6E7yCa9fq991q8skYew=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringIndexerJava$2.class
+SHA-256-Digest: atlaeGGWQi6h2qzpNG2gTYGcoQ6wWMgk3XFnxcbr4OM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/SpringProjectsProvider.cl
+ ass
+SHA-256-Digest: Qv6zm9LDxgTNm+K0FVs5sNMnDvkrwbltq466eC/R8Eo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/annotations/AnnotationHierarchies.class
+SHA-256-Digest: oxTuBO0yFzv9N1RUubvC1/kYCurpcJ5F8eLxjtyZXp4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/MetadataManipulator$1.class
+SHA-256-Digest: By1LCcgLy993xItvdplcVrhIrGj+4tGNVgDv+AcJQlI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/rewrite-java-11-7
+ .35.0.jar
+SHA-256-Digest: PPx11pxiPYWiDP9NRy1NgmyiUNAEN7+B0Z/cl6W/xJw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/SpelExpressionReconciler.class
+SHA-256-Digest: 3VvZmWHRT+RfREzR/VKsqX+UwggQrl+2Qn+qpjDPsOQ=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/Bytes.class
+SHA-256-Digest: 8PbaRAI6V2Wfy8arEgl1xqC3+ehgxTD6Ui9HjOxkkrk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/reconcilers/AnnotationParamReconciler.class
+SHA-256-Digest: fr8aZ4IHDmGZNJpB0b4TDTvM6vqcYx0eJTw+orvejIA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/problem-types
+ .json
+SHA-256-Digest: DtxIMJA2OT8Z9kgnzAsU4EP0vqn83IvSyuObXgkcMOg=
+
+Name: syntaxes/YAML.tmLanguage
+SHA-256-Digest: p45g2ej2En5C9aJwx9CRwSEoRXhHbD6On+vrgW2sPMA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/PropertyInfo$PropertySource.class
+SHA-256-Digest: kHvkjHCF/MHjco9bgJz54jMjYr1lsuec2ZMJj+Lfw4o=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/NoRepoAnnotationProblem.c
+ lass
+SHA-256-Digest: nRDCN3JgL/tXgpGzFVfdsB991hvkDwUX/HolAhhBGHI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/fastfilter-1.0.2.
+ jar
+SHA-256-Digest: OPiCTQfIyTL6UMwBdfMsD/8vr7ORPNL5VxrDScljEUk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveBean.class
+SHA-256-Digest: Va50hdje34rBHzb+xpbEROMlvCixekktWlg2gTaoORw=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jarmode/JarMode.class
+SHA-256-Digest: LWyI0LHNFDdsQNiYV7BPa5WvblFyl7iSHTVPLshB0+8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/reconcilers/BeanMethodNotPublicReconciler.c
+ lass
+SHA-256-Digest: 2HZgLUc1e5lM4XpYt0pqnrb+fV6T/a1hxaQxclq7YgQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/ValueProviderRegistry$ValueProviderStra
+ tegy.class
+SHA-256-Digest: J3zqAV1Hmn4HeU+yT2992C53KCT0FEbnc9GNP2EymKQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/ant-launcher-1.10
+ .13.jar
+SHA-256-Digest: zXaVs7+2lkq3G2oLMdrWAAWud/5QITI2Rnmqzwj3eXA=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarURLConnection$JarEntryName.class
+SHA-256-Digest: 3XR63hulp0BDQtGdkAco2VAhnBW2HnjF+L0PbNkgXTw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessMemoryMetricsLive
+ Data.class
+SHA-256-Digest: tbIwAgNlj0OBHmEI+istlXfKndMwD+mMFoJUhxoKXKs=
+
+Name: org/springframework/tooling/boot/ls/RewritePreferencePage.class
+SHA-256-Digest: SGRNAAP4YeOA+uuvWhNcuv032mMNTF3ShqV3JGDbI+E=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/ExplodedArchive$SimpleJarFileArchive.class
+SHA-256-Digest: K3oIW8AQATn5Gs/B5Dxx2dfSjCPWKENk4PBqb0h7Qv4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/NameEnvironmentAwareASTRequestor.clas
+ s
+SHA-256-Digest: 4rnxl0u/s3k3VK6l8LTb0dKVtMfTPSnQDevkG19FbmA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/StartupMetricsModel$1.class
+SHA-256-Digest: +PUoIpfGNLlKFRy5ffXYRKEHxNKORIfhBdiQBwNcDp0=
+
+Name: org/springframework/tooling/boot/ls/commands/RewriteRefactoringsHa
+ ndler$RecipeFilter.class
+SHA-256-Digest: 5TNtzJU8tsI/0y4TFDuYzZkZx3ibSQrb15x4BK5NkSk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/junit-jupiter-par
+ ams-5.9.1.jar
+SHA-256-Digest: MBV/JthXuk+EwNhNFW9V8FboDcCbQoGv+ose1NMgXAg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/common/PropertyCompletionFactory$PropertyProposa
+ l.class
+SHA-256-Digest: 79Ph00yXfJK3Z3HIaPBd3vfsWgZ+OACLObOwAfRdTbs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/SpringIoProjectsProvider.
+ class
+SHA-256-Digest: iMRHO8h2gQ3yX5zD7f2wCp5jmLFpGUPO8bPzjC2bqGY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/jdt/imports/ImportRewrite.class
+SHA-256-Digest: xJagc2td8TYFdqFSZfh6GPtS0zwc0oF6eGJZik+gu3Q=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessConnectorOverHttp
+ .class
+SHA-256-Digest: 1Hcc9qTz7aLa0LiYNSO2drfoQKKGJhWMGFPKDX3dxZk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/AdHocSpringPropertyIndexProvider.class
+SHA-256-Digest: tJSYXH/kqpTWiKUhJHqxFlKjpOGgPe5of9lgdW5Yi+M=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/CachingValueProvider.class
+SHA-256-Digest: h0BOaMXKoFJbYCJx1XfnP99CH49wVfU6/7evUT4C+8I=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/CentralDirectoryEndRecord.class
+SHA-256-Digest: PnLaKPKh+R1dPffgssGc0o41IUAtr708sGYSl0P3dKU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessConnectorService.
+ class
+SHA-256-Digest: oAxZ1DNax7S8F+63br/MWoSeGD0LiBanTDSRsiN5Kgk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessLiveDataExtractor
+ OverHttp.class
+SHA-256-Digest: qfKV82NFy4Qr7uAIckfzU7ipkm5RdnAk5fNw1CjvNpM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/classgraph-4.8.14
+ 9.jar
+SHA-256-Digest: 7Oir/hJ3RQqLleV/xWmR3KH9Qv/v2tiPZf4XGsV29gQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveBeansModel$Boot15Parser.cl
+ ass
+SHA-256-Digest: M4qPXYL2MJo/VRWyypPVb3Nm/5ul8W9j9Oof+pghwoQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/Boot3JavaProblemType.class
+SHA-256-Digest: Ueh1PD8O8w1aIVzYUGG8P+EELke9An00EoelyWHKbt4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/SpelProblemType.class
+SHA-256-Digest: 2bpe5KttvJEUbZXhgjQ8eo91JE17z7S3dixS+in5iQA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxRouteElement.class
+SHA-256-Digest: cOENxR2DZy8tWoL4d4J8LxVzu2k/cZU+mYoJSEd9ZT0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/vavr-0.10.2.jar
+SHA-256-Digest: GyrkbPNSYn4Fs5rB8dO9p7KFqPZDzcdHKupKonlJLlQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/ComponentInjectionsHoverProvider.
+ class
+SHA-256-Digest: 7DABHjeGWwuMBDvT32gJsQfkqYF/rpAmLEVMZqbfyvo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/common/InformationTemplates.class
+SHA-256-Digest: 1/puDSPQGwD1Axh/hGbN3mE7ECl4NX1ooSmrrqCcV6U=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/LiveHoverUtils.class
+SHA-256-Digest: Lo4NaYfLXiuYTW5AAyorRrpYntYhA3pEfkCzp04ds7E=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.osgi.service.
+ prefs-1.1.2.jar
+SHA-256-Digest: Q8fIcHEONjQF1CLaZTzODXmKRTf3bkkw95vOrdOlU0U=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/AbstractInjectedIntoHoverProvider
+ $DefinedBeanProvider.class
+SHA-256-Digest: 3xMcwfSu046Ydi1e4B7Lm3CT3LouuC+Ys7Tf6vmY4KA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jna-5.13.0.jar
+SHA-256-Digest: ZtT4GaBipRodVie//CP6xV0Wd/Dgof66FEqr3WcKZLs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/opentest4j-1.2.0.
+ jar
+SHA-256-Digest: WIEt5giY2Xb7ge87YtoFxmBMGP1KJJ9QRCgkefwoavI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/ResourceHintProvider.class
+SHA-256-Digest: 5hbPWXpSNEKg0qjZKfiWXkZxCHB94GrRTiAIHxncHtw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/LICENSE
+SHA-256-Digest: +EeXO1Eh9MEZFqB2kXrYgMVKZ7fTdmdtkuZU8S2K9+0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/ConfigurationMetadataRepos
+ itoryJsonBuilder.class
+SHA-256-Digest: h5zSfYvyxAVdxKTay/kdZsiWp8y2SpfpDxnzXxrpRHg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/RawConfigurationMetadata.c
+ lass
+SHA-256-Digest: BhwWRpfqimnDumjoc4MYxd/9hOn9Nbxnvyegv6akkrA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/antlr-runtime-3.5
+ .2.jar
+SHA-256-Digest: zj/I7LEPOemjzdy7LONQ0nLZzT0LHhjm/nPDuTichzQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/BootJavaReconcileEngine$1.class
+SHA-256-Digest: UJUlZiJHTewMWI73eRT0ZrA3Vkus1M0NvcDgGlp8EUg=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/data/RandomAccessDataFile$FileAccess.class
+SHA-256-Digest: o1erOyvCaNCbPmBXAH+CHmZre1FpFcmBmpDBT3+xG70=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/json/Generations.class
+SHA-256-Digest: XW+N4JgSpgaQ7BAB69oMsSt1SeMigBe1EUdge2dusIE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/spring-boot-3.0.0
+ .jar
+SHA-256-Digest: PPvMPO2zhN4Wjbz/PiArX25/iwSDPeWc4Qis4wAi1vM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/RewriteCodeActionHandler$1.class
+SHA-256-Digest: acqtebVyx7R+FJA823MCZbKtCVsDEgSxEy92lHDQOtY=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/PropertiesLauncher$ClassPathArchives.class
+SHA-256-Digest: n0SUnqcI1Ssm5xVzpxcRPHq5Ox2ctgnNxlr7jCMRv/Y=
+
+Name: org/springframework/tooling/boot/ls/xml/XMLRootElementContentDescr
+ iber2.class
+SHA-256-Digest: wm9KugvW7rMHbEGSPRjFPHOadMdaCQXYYfCOUWGR/W0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$1.class
+SHA-256-Digest: XXSwIC1MXoEXm9U4/uUwGW78X2hwHLk1nPjCK4zKK3A=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/hover/PropertiesDefinitionCalculator.
+ class
+SHA-256-Digest: hE2/ET76JS64BCVymCl1IFyBSC/zTRZ/utomlY3jfnM=
+
+Name: servers/spring-boot-language-server/META-INF/third-party-open-sour
+ ce-licenses.txt
+SHA-256-Digest: dAQonNtSuovVdzpXlV4mTvkqoAUm++GSAKaE8Xo0/+4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/BootVersionValidationEngine.class
+SHA-256-Digest: uItV4M6udtgWYxGbkv9oUTAK9djq/q477bK9f0gvE3Y=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/SymbolAddOnInformation.class
+SHA-256-Digest: Lvvo8HbcvzWZ3aCklw/0eIRDjyPbLp6ENTkEphYCnhw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/ActiveProfilesProvider$1.class
+SHA-256-Digest: QLIyk40G4bEphdQjMSmtJUAcHbfqeYwxC8j3N7wjx3M=
+
+Name: org/springframework/tooling/boot/ls/commands/RewriteRefactoringsHa
+ ndler.class
+SHA-256-Digest: o0RXgrnWVFScBGUviKtYkxZ6yj2UdXXcElp8Q+8qWXg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jackson-module-pa
+ rameter-names-2.14.1.jar
+SHA-256-Digest: G0dBwcVmqjIeKqKPMF0uV9lEClQN5BbUz2sBAakYmyE=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/StringSequence.class
+SHA-256-Digest: r6QrlRUS/f1o8EDNy6TTjuBHI+O1Y4Q7/3ZUwdMaKeI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/HintProviders$4.class
+SHA-256-Digest: zlU9GPE/oTROht7dso9WWKC8AStIMl1sqo7vtVtlALA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/StsValueHint$1.class
+SHA-256-Digest: vCsk+JLkH1ZaxqLlM4r8vmz69BxyFbTiZF5DlL/eABk=
+
+Name: org/springframework/tooling/boot/ls/prefs/RemoteAppsFromPrefsDataC
+ ontributor.class
+SHA-256-Digest: by9GHa0JtGaexPBACaq/+we/GEuRSbJMMAUrRao1TMY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/rewrite-yaml-7.35
+ .0.jar
+SHA-256-Digest: 4HhFT/gsL2PoP337YcnNU2FadOvGm/zaazcoeILkFlA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/spring-core-6.0.2
+ .jar
+SHA-256-Digest: JHlPHeejP7R7A0z8RHpKvRYbOpEoiG3L2sxxw2vTDZM=
+
+Name: org/springframework/tooling/boot/ls/BootJavaPreferencesPage$1.clas
+ s
+SHA-256-Digest: yFUsIQUfOzL7wArBiW2haWzQ0qNI4R1q55ihu89X1qE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/NoAutowiredOnConstructorP
+ roblem$1.class
+SHA-256-Digest: v55v6XJ+zHHmxl2s5if2BkdP/QDdsksp4GYlz3Hivmw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/Reconciler.class
+SHA-256-Digest: aOBgVOXIPMlnPc7IJ3iemdvpwMMhCCB8Afg+RAwSEs8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/HoverProvider.class
+SHA-256-Digest: d8LDowfERbp3chdBZYvDjsTKJuLe+HtATHmuNFQdJOo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/rewrite-spring-4.
+ 32.0.jar
+SHA-256-Digest: dhfod/QbCp41bMlGZWaqex76ceQHUELXJ6japmlvdQY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringIndexerJavaContext.class
+SHA-256-Digest: IcUEb3S6G6qf8iVWj+KAbJ2Q+46Zt6N582UMSl1I0dc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/snippets/JavaSnippet.class
+SHA-256-Digest: CbV4M2cFDUR+qtxX4MdF/6slH9LpBRg5eYHe7eYl/dk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jaxb-api-2.3.1.ja
+ r
+SHA-256-Digest: iLlVoN9XiAomp0cIvDT3Tcr46/TniEOii1Dq6UVzKwY=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarURLConnection.class
+SHA-256-Digest: 6Zm3akBHxyrr/QxkVEP4a9iMsqppVrDWBywfr5b/WkQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.equin
+ ox.preferences-3.10.1.jar
+SHA-256-Digest: HXzD9gc/f2LTjI4Hwv1zPiPlaam2ZmwN7YdzVZHiXdc=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarFileEntries$ZipOffsets.class
+SHA-256-Digest: yjHbgkWU7E6D297UiCa3zzj0QKhSNQ5Z0USiVij3ug8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SymbolCacheKey.class
+SHA-256-Digest: br+NJiedKUP0ivHRyFliXxQm7fkpN/1oDwioIKWBTDw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/ClasspathResourceCompletionProvider$Classpat
+ hHints.class
+SHA-256-Digest: jdEqH376pdymiEdyl6iAvtvaAOlmiUHxvZZxfCTdvB0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/BootPropertiesLanguageServerComponent
+ s.class
+SHA-256-Digest: p0ipWuINzukZQm5g0jfz3OPqHVl+rb8arUQvz8eLuXY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/ActuatorConnection.class
+SHA-256-Digest: RjVNJ+7dezyxLvogXZp2BqJYtLfGlkiApjrZawc1bD0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/cucumber-expressi
+ ons-16.1.1.jar
+SHA-256-Digest: dZCk5KZ3LA38I2QdfW8YQCJ4NqZd8MSeRwaTnfmXgd4=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarFileEntries.class
+SHA-256-Digest: GsWAm+8gMQT/3pVd575DfCmZ9gxidroy6Hp5duRnWHM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/spring-context-6.
+ 0.2.jar
+SHA-256-Digest: BdDGn5Lr4zun6VSAuRpfl8sYDkSAPskulfLyVlUJj0U=
+
+Name: org/springframework/tooling/boot/ls/commands/SelectRecipesDialog.c
+ lass
+SHA-256-Digest: 6sbGJhG8vo5ZemuZPCQNGHRuLU3vL6sjbnpcRRtE39I=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/CentralDirectoryVisitor.class
+SHA-256-Digest: rf6/l4Di7oVlR262HXm59KA45SLGQkhiEZgo6V7WcWA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/RecipesDescriptionGenerator.class
+SHA-256-Digest: /MjlIbvZjemwrCw7aH+/sBmvOfGhn+0E23p4gSYYlu4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/json/Releases.class
+SHA-256-Digest: HGnyqhg/e3ulLN9W4kI7eihJkmwVvAU7A9g/yTTQfSM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/value/ValueHoverProvider.class
+SHA-256-Digest: oGCPnf0tX7jwkJ8scu/EDyKjKaRDHGcbAjKwsEJ5qvw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/vavr-match-0.10.2
+ .jar
+SHA-256-Digest: XXqVFbBeMpEZTgTmQaz3SppUTByqHiwk9ZoUJMbsgog=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/error_prone_annot
+ ations-2.11.0.jar
+SHA-256-Digest: chy5GEK0b6BWhH0QTVIlyLjh6LYiY7mTBR4eWgE3t+w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/typetools-0.6.3.j
+ ar
+SHA-256-Digest: QIMAhngEvgXRCDzAKH3TohKVqedgkOKIATulpBgtyW0=
+
+Name: org/springframework/tooling/boot/ls/commands/RewriteRefactoringsHa
+ ndler$RefactorBootProject.class
+SHA-256-Digest: 9v3AjZk/AkBEPQrgwm3uL9UI4Kp4GhU+2hVMnjuzSN0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/BootJavaCompletionEngine.class
+SHA-256-Digest: YNGpl4zSB2UbsHhWvE5QS+psBFEpyKMSR9V9DzSiaNs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/BootJavaWorkspaceSymbolHandler.cla
+ ss
+SHA-256-Digest: BAhO5fxn9bCWYc73/wAs2ovZ1sslKQPgfPdpYweR0N8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/NoRepoAnnotationProblem$1
+ .class
+SHA-256-Digest: M2HblgKVIc4gtKBpuPvFOTVOFXP6n7O0VhPJdmPjoJk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/HintProviders$3.class
+SHA-256-Digest: 2fN+y6DGS9ClwnfjOG7SpN976V2sKpvQc4lICAkNnyM=
+
+Name: org/springframework/tooling/boot/ls/xml/XMLRootElementContentDescr
+ iber2$QualifiedElement.class
+SHA-256-Digest: cixlV464pyqiCCkhnEj0VeS+6vuYfpPTj8y9r9IYF3k=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/beans/BeanUtils.class
+SHA-256-Digest: Sl0LHdWSB1u39RQe58e16y+v++1LOlAYhRbmdVdHYC4=
+
+Name: plugin.xml
+SHA-256-Digest: FebrQKNp36GIzHt6xu89audXuYyUKgpn2OIaGPS/Fk0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/reconcile/ApplicationYamlReconcileEngine.cl
+ ass
+SHA-256-Digest: tTlgNI+3sl7BB4Ia8tgP5zL4VUkybEac/5nTGzHRiE0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/NoRequestMappingAnnotatio
+ nCodeAction$1.class
+SHA-256-Digest: CWbMuJVFV8VBYGZKA5JKGNSenNdL1NTcpVaU9T65jCM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jackson-databind-
+ 2.14.1.jar
+SHA-256-Digest: QjoMgG3ks/petKKGmDBeOjd3xzHhvPobLzo3YMe253M=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/preferences/VersionValida
+ tionProblemType.class
+SHA-256-Digest: Q6S5TkepS7+HWblMRNa2zPhc1yA6+aClfoX6rB1apdI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/hover/PropertyFinder.class
+SHA-256-Digest: 2XEdIy3Rfs4lE1Je+iOHlJXRWYGanUR93Q1Qx07cXZQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/value/ValueHoverProvider$1.class
+SHA-256-Digest: 5SVB3l3zqGH2nlIiba0VbIHLP+dPisukC70Gwu9wHvY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/JavaDocumentUriProvider.class
+SHA-256-Digest: brtlNJ/Hm391au671Q0qnqUcqKIwpyQo0rQHOTCPYyU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/SpringSymbolIndex$DeleteProject.class
+SHA-256-Digest: cHcmB1gR7uQE9zsyVsYKa/8/Q7mJKQ+dYm5dpxjqByw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/VersionValidators.class
+SHA-256-Digest: oJ933kOHoO6ogL83bohBqtTqgJd4+OwqKI7Mmn7Bpk8=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/MainMethodRunner.class
+SHA-256-Digest: wAquAdXN1WDi+IYhkqXhs71arrqatLuVnrcQxHq6h7k=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.xtend
+ .lib-2.28.0.jar
+SHA-256-Digest: 4Ytgmj+Z7OeHRD79IxUEIy9LYXnpzBx7CQU2HdMcj98=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarURLConnection$1.class
+SHA-256-Digest: /vWpMlqdw/U+vK8GrVbTzuOA/faKHpyto2SFH9PBXOY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/SpringSymbolIndex$DeleteItems.class
+SHA-256-Digest: H+RE/NxzZOOTNc/EuwFXR+Sfr7Vq8636+ht99Q2ZAzw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootVersionValidationConfig$1$1.class
+SHA-256-Digest: HPMDi5YYxluPpr+cYIBcYK4DEPcHrCBa0sO3NrO9ghY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classpath.idx
+SHA-256-Digest: zb6usect/ySL/ObxkHiY6dbOM6KWKh58NB2KNzIAvuk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/util/PropertyDocUtils.class
+SHA-256-Digest: K7lIiIZXFovtRetGDN/1cy7q7T8JpPaSb6XrPcNqmlI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/LiveAppURLSymbolProvider.cla
+ ss
+SHA-256-Digest: G1h3HktBrY/atw1c8yq+g5Ond75suit29cRuf8305n8=
+
+Name: org/springframework/tooling/boot/ls/commands/RecipeDescriptor.clas
+ s
+SHA-256-Digest: 4CVVGUB8o838gYJbz5WiF1dMdk5O+fp3vtLSV9iNOrc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/CachedBootVersionsFromMav
+ enCentral$1.class
+SHA-256-Digest: gyP17sN7LbKYV2/TfTCdDMY6AnXQYcPbDC8XYNnJffM=
+
+Name: jars/commons-lsp-extensions.jar
+SHA-256-Digest: doDchpGXv6rDMolFPGTMd1y2zi4FBzDPMfh0eQUSpoQ=
+
+Name: org/springframework/tooling/boot/ls/commands/RewriteRefactoringsHa
+ ndler$UpgradeBootVersion.class
+SHA-256-Digest: hTANi71h0BJ7nbuBL3sO/B2QRMMXLzOH6P6mAqPm8gc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/TypeUtil$10.class
+SHA-256-Digest: NhfDUVE7/AgkxSckZ2h7ohRvo1mQMObAhNnb34X/K8s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/StsValueHint$2.class
+SHA-256-Digest: PO8c5EIZUxsgM2A2BXsieT/ATj00zSjQPQrPzhLcX2w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/json/SpringProjects.class
+SHA-256-Digest: rOMK2eBcMvNXwcnOx1LXlHLUDdEbRk54lmCRry1El0o=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/NotRegisteredBeansProblem
+ .class
+SHA-256-Digest: UcNCGGZknZeyFYjvtFeqSQLeKtrXRntCmrzbGRlnv+Q=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/java-object-diff-
+ 0.95.jar
+SHA-256-Digest: sGn1xqokSoSttGZ6iTuA9nT4TmYndqHqGvrmiaXBgyQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/JavaCodeAction.class
+SHA-256-Digest: pxvBAmT0s7ym9E1DIOWjXxQc/UqyUKxZe1bNOKmWdpM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/ClassReferenceProvider.class
+SHA-256-Digest: UekBPjRaEVFPdqUy7OZag5YzLLCiiKr1msZPotlhyYY=
+
+Name: org/springframework/tooling/boot/ls/commands/ToggleComment.class
+SHA-256-Digest: THn8x/z46JrgEhqz/eEcvwavy6iMAi2qd6kV4QVhTpY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/hover/PropertiesHoverCalculator.class
+SHA-256-Digest: wsAbcxepQfbLP0+r8o4+bWIupfoWfsETu7SKtYipN9A=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jakarta.xml.bind-
+ api-4.0.0.jar
+SHA-256-Digest: V+N5atV1NkAIj1+dPFPBg/LCULfa2QUp6j4ZpVFaoSI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootJavaCompletionEngineConfigurer.class
+SHA-256-Digest: 4glfbACaqXSHV/caxYhyPg0wT4JU+kUhoK3QJLvxbWU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/SpringAotJavaProblemType.class
+SHA-256-Digest: FOJB6z6KGpq4V99n5cYDNG5C1FK1hh6zf9FmKkIKatY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jna-platform-5.13
+ .0.jar
+SHA-256-Digest: R017iPbpcAm27B2YwwJN2VwjGHxl2r+8NTMbysPRc90=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/snappy-java-1.1.8
+ .4.jar
+SHA-256-Digest: JMTR/B6J4HgzGrj0AamcrWhZm95KLkUWBCy1SMUbHD4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/java-properties-1
+ .44.0-SNAPSHOT.jar
+SHA-256-Digest: 5DpxBvrGtpeF6tHaBvZ2+xCH/YVYpEPMJbEB4Z7GHFk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.equin
+ ox.registry-3.11.200.jar
+SHA-256-Digest: ejZoykBpMCE+PtuAJKxyxR+8Pyid5jozJUyAcKqNCj8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/ReferenceProvider.class
+SHA-256-Digest: pWZdFhm6N35ftchoE086lhNXcFdSi1vqPI5gIaA+0FQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/rewrite-java-17-7
+ .35.0.jar
+SHA-256-Digest: Q0IuzNVpMbOrW/plhKb5Ps37Kd0cAyJ9BBzcedHfshQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/value/ValuePropertyReferencesProvider.class
+SHA-256-Digest: NXFhlhQXFgrwsL0gogoe0xepWKCbBRzUSRTmJwr37MU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/SpringXMLReconcileEngine.class
+SHA-256-Digest: acXrhknQ9CBECJt6w/WX/REL5SggAzHfoN8HI0pvl08=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/html-formatter-20
+ .2.1.jar
+SHA-256-Digest: Ir+5TxfisjZglG6stIHEG8SD1xjfTg6wsYBj3U3kQWo=
+
+Name: org/springframework/tooling/boot/ls/PrefsInitializer.class
+SHA-256-Digest: STA4KZmavLI27IWg9p9rO7gCyArEY080R5x135X2vIk=
+
+Name: org/springframework/tooling/boot/ls/prefs/CategoryProblemsSeverity
+ PrefsPage$1.class
+SHA-256-Digest: 4ObhvH6Qqz6Nx3LvplK3AoELZM8gArBE/TpKRL8ndVI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.xtext
+ .xbase.lib-2.28.0.jar
+SHA-256-Digest: LoHCrQtOSLCxui5Yc6BruHffu8sGUcHtCYjuFcbrvf4=
+
+Name: org/springframework/tooling/boot/ls/XmlConfigPreferencePage.class
+SHA-256-Digest: R984RhjVMaHmmdemHBLckLb6J20wDi1ONlQdTukgblc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/StsValueHint$4.class
+SHA-256-Digest: Mw6zWBDKE3AX25AR9uhGzjh+l01BaQO3QXNylDd+ehQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/ValidationPreference.clas
+ s
+SHA-256-Digest: 0v0QaHX7FkqNB87kQyMb08+3LveuWgb2niaYgfj91q0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/JavaServerElementLocationProvider.cla
+ ss
+SHA-256-Digest: AP/QvqDipI7+MGneRjriDoRhiWwPsSdzTYD8RNPh5oQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessLiveData.class
+SHA-256-Digest: 8H7bzEiKsUQPMe47UtLEvh+Hl6D9yQ75Eoavhoe6Erw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/SourceLinkFactory$2.class
+SHA-256-Digest: 1U1x57zMydSO+sOmdI8NzHWiXe6UMVHz+uGJdlvVKqk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxHandlerCodeLensProvid
+ er.class
+SHA-256-Digest: nr0Rvq8Yf2LT0C5Hgpdi7mw/Q04JVbEo8zlsnZbzPPw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/VSCodeSourceLinks.class
+SHA-256-Digest: 68DKk58TPcga6oOEE2jculjvNR/ZvIiOQXeUcProrTI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/messages-21.0.1.j
+ ar
+SHA-256-Digest: CgHLX16UFI7r/NKtZQ/Qm4EeAGWx4ybmt6fOlrDLb1U=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/failureaccess-1.0
+ .1.jar
+SHA-256-Digest: oXHuTHNN0tqDfksWvp30Zhr6typBra8x64Tf2vk2yiY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/hints/HintProviders.class
+SHA-256-Digest: 5JPXWb79YCG6Jb/5X4VKlr87Rles3l/BCcME77zHbGI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/RewriteRecipeRepository.class
+SHA-256-Digest: isiJ5wryW7HtBiFdLnsk5nOeUMKStvgfKw84TynXlKU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/common/ProjectReconcileScheduler.class
+SHA-256-Digest: x7VkWxyHJcAcj5JupmS2FfRsuFhhe35KvH+jm+RnvA8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringIndexerJava$SCAN_PASS.class
+SHA-256-Digest: beFOzD+0bR3kjDJQL/YP2BAzNKgpv10oEJcw0XAxdtI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/SpringXMLCompletionEngine.class
+SHA-256-Digest: ODetwT0hPnBhluUrFnZKex29Cb7dEw153Wdk/dchEl4=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarFileEntries$Offsets.class
+SHA-256-Digest: eVmp4DVv4LrSvuzC14rv/889U5bp79u/M/Xh60SUwf4=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/Archive$EntryFilter.class
+SHA-256-Digest: rGj/DGDn6d2IzSF6tfFABDLbmUKm85Ms2mpQuiLF54w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/YamlPropertiesJavaDefinitionHandler.class
+SHA-256-Digest: s3hxJ7iODqI8tQOgXDaXHnzmeP60vMB7qj3s9OEK+YM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/SymbolProvider.class
+SHA-256-Digest: VxS6XxMhpV+TgC6pVWh3mS4PMTsXqBFEngnbf4Kgb20=
+
+Name: jars/xml-ls-extension.jar
+SHA-256-Digest: S5/hm2KErXpYN4rK/xQvZFYZTG3qMDBqQG6/ZZsTg4s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxHandlerCodeLensProvid
+ er$1.class
+SHA-256-Digest: 6xWA3VirQDlr7ItWCsfNbdSCaXbb9VQWs31ynHzONp4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/UpdateBootVersion.class
+SHA-256-Digest: ui92oxX18/XgiwNfv2br/XgT9i+tYUeEWxYwBynqm4g=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/BootJavaProjectReconcilerScheduler
+ .class
+SHA-256-Digest: kf9jxmC71PjaFsGN+i6xDxLc8aFKG06N1Cwze3c3E8w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/xml/hyperlinks/JavaTypeHyperlinkProvider.class
+SHA-256-Digest: tHUFtM4gFgVI5mtb6AYQJ79gWs7NTJbv2aUb7GJE3TE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/log4j-api-2.19.0.
+ jar
+SHA-256-Digest: XMskrZ+S52jQvEVtMGGnN5USYt+APgBNLK0Ja3WojWA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/spring-beans-6.0.
+ 2.jar
+SHA-256-Digest: m/OZYrmpxByb5CjOeirTDKpPSZ+qx0B1j39Y8rm1GCc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/RewriteCompilationUnitCache.class
+SHA-256-Digest: XJpsJbTE6IgoEd42LORvipRCUA+VEx2cde+Y49Rm5Bs=
+
+Name: org/springframework/tooling/boot/ls/commands/RecipeDescriptor$Opti
+ onDescriptor.class
+SHA-256-Digest: 8C4eY/tmcocqTQRzA7gKc2A6GWCL38hRqnO9YW/ph8A=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/completions/ApplicationYamlAssistContext.cl
+ ass
+SHA-256-Digest: PEcz1NhC+543OP/nwNGcqZ/AWWvhaTaIWLvdBtsO6mE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/ci-environment-9.
+ 1.0.jar
+SHA-256-Digest: pZJbNtA937Ny5Cj5cGjFXJDHOs15J36/jB02n/KNkhM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxUtils.class
+SHA-256-Digest: pUgGJvd0GpZoJ2XC1/1+Ges8FxRw6BpD8D7p14K/Lmg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxRouteHighlightProdivd
+ er.class
+SHA-256-Digest: zIOjJz2Q2W12rKoYACPUTdjZFm8JeixLz40kiJghuoA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/reconcilers/JdtReconciler.class
+SHA-256-Digest: tNNdzGoYu4wc2el/wfFIHPztq8oTQVo5nokG7csFIDM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessLiveDataExtractor
+ OverJMX$1.class
+SHA-256-Digest: UgCkWIrxpeDqgAowlQipPAE1dbWYfdKXv5+mDdA3XTg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxHandlerInformation.cl
+ ass
+SHA-256-Digest: QhYnNo6gaBBppvNHxct6hghF8+o4Dii//hSoI2C9hGw=
+
+Name: org/springframework/tooling/boot/ls/PlugRecipesPreferencePage.clas
+ s
+SHA-256-Digest: +qxCZCeNr14a9SsSNEJx99qJZxFCpxK/YlyseOEG4RE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/snippets/JavaSnippetManager.class
+SHA-256-Digest: ducGD5ap5CXs1+YZFsYvkAtTqh4mdQUoDmNyyg7BvBQ=
+
+Name: org/springframework/tooling/boot/ls/prefs/RemoteAppsSection$1.clas
+ s
+SHA-256-Digest: tGBPH4Lw7I3kkCrlJhX0UVbnxm/HBEmLNEWoSkyOJd0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/completions/PropertiesCompletionPropo
+ salsCalculator$3.class
+SHA-256-Digest: jseYNNSDE3xyIVTNsRQTZm6iqj2TCbPPRZVauwFJHBY=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/AsciiBytes.class
+SHA-256-Digest: C4KenAp+JAEbtpwnMhEhrwiDOqkvYBj3toBOXnJWweY=
+
+Name: org/springframework/tooling/boot/ls/SpringBootLanguageServerViaSoc
+ ket.class
+SHA-256-Digest: vUao6oL3VKojjM7liMr97uXn0oDDMENGAngiSXr5hDc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/completions/ApplicationYamlAssistContext$Ty
+ peContext.class
+SHA-256-Digest: eOIc32RgVB6PRi+wES9axzn7AFt4BN0q5PeRrGGDKNY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/xml-resolver-1.2.
+ jar
+SHA-256-Digest: R9zeiYYBkxTveK5ygKlJc6IdLtlQdaQKAAtC2pVkKeE=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarEntry.class
+SHA-256-Digest: uUcWQAXYsVg1rI7S7nR+rCF/11+JcIDvr3oimp3NLlc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringIndexerXMLNamespaceHandler.clas
+ s
+SHA-256-Digest: 0Iwh+oj3TgT7juWXinJEZY3Rj33Khw+RF3hbm56O/G4=
+
+Name: org/springframework/tooling/boot/ls/MissingJdkWarning.class
+SHA-256-Digest: mwxWA5efbEknMht2nYFQcoFzimYHqfjQtVIh+lpgsWY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessConnectorOverJMX$
+ 1.class
+SHA-256-Digest: 7jlIG3pXOy6Uw6dM8bGotrVJM6qN8orOY9QpszwKs98=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveRequestMappingBoot2xParser
+ .class
+SHA-256-Digest: GHOCC2rcfPM41ne+FKTDDvmfNtORbeYc2CnQ3bHfP2s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jackson-datatype-
+ jdk8-2.14.1.jar
+SHA-256-Digest: 8ZlpFNS+sh+xJIYSfY/xGOKK+YZs8XJGOEePMPmUixg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/CachedBootVersionsFromMav
+ enCentral.class
+SHA-256-Digest: GDjP8h1wMGCFSDN2Vg45/alMh3yVgOn5v4ieBpXGSzE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/BeanMethodNotPublicProble
+ m.class
+SHA-256-Digest: 6CrGC17AeH1gS+Y5XKRb/JwL49oc/CzeiQOdAvpL2nc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessConnectorService$
+ 1.class
+SHA-256-Digest: +Oj6p4OEyoK18G5C17AhgF6zetQBbWzgEsiD69YjTOQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/Hints.class
+SHA-256-Digest: GwbGfLIxbzQylXQZ9KUrhPj7hBK72oTmlKz5pnTO8TA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/spring-expression
+ -6.0.2.jar
+SHA-256-Digest: dq1jtwJ39faObHY6wcRzlWwX09F649SCXWJ+ltsagnE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/asm-util-9.4.jar
+SHA-256-Digest: PXkyuT/1UFZkHnz7YB+WvNXNBx4bBQPHilAUIyKXoj4=
+
+Name: org/springframework/tooling/boot/ls/DelegatingStreamConnectionProv
+ ider$NotificationQuestionWithLink.class
+SHA-256-Digest: kUDBdk5MxZtkk4Jo81PkXdxdtWvnu5hbWfz6ExApKbc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.jdt.c
+ ore-3.32.0.jar
+SHA-256-Digest: zTluQ2iwJfj4mOp7dpP+W5sfaYHDZcOFdCDReBMu+UU=
+
+Name: servers/spring-boot-language-server/META-INF/maven/org.springframe
+ work.ide.vscode/spring-boot-language-server/pom.xml
+SHA-256-Digest: IYP4QvSO2CtiYGEnFVxJwh8OTA2SmIXoQiujAzFR/Vk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/configurationmetadata/Deprecation$Level.class
+SHA-256-Digest: cXv2Hote0PkV1+HCEQLUM5bSFACwtqLpNPJY803F3jQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/cucumber-core-7.1
+ 1.0.jar
+SHA-256-Digest: ZhKKMrKPWxXFD3wE7J/bw5E37nYuZ8hP7mNvYSOWJf8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/value/ValuePropertyReferencesProvider$Local
+ Range.class
+SHA-256-Digest: P0SzmaQ09zum0CI8pfx7cagnZUSiN/2AyhlAml10r2g=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/completions/PropertiesCompletionPropo
+ salsCalculator$2.class
+SHA-256-Digest: Dwl52M4N1seAG+Rb94T9cR8e7YpXVpk4JXaqewtOoWo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/datatable-7.11.0.
+ jar
+SHA-256-Digest: cLgNEz9I3jtUM4rRIkX9OfpMjDQJUcrPbdKJJj4InzQ=
+
+Name: org/springframework/tooling/boot/ls/prefs/StringListEditor.class
+SHA-256-Digest: Wi+8G5qXv3N2mBvfjkdi9zvqrfXvlUXmBeSWoJwpiWU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveRequestMappingAbstractImpl
+ .class
+SHA-256-Digest: SG7XvuJWCUNWUV/2MD19H+chpPxxRx8OK3tMmBnvev0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/reconcile/NotRegisteredBeansProblem
+ $1.class
+SHA-256-Digest: VnefhBTINIHeGA4pz5pDUKfrZyCFZAFXsuyrwkDHgqo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/woodstox-core-6.4
+ .0.jar
+SHA-256-Digest: 1uufL0AEmnqAi68R/7oHN2SOYv9S/eknHYCOXVeicnk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jackson-dataforma
+ t-xml-2.14.1.jar
+SHA-256-Digest: kPphmcGUzzutWAc9OROz6KgS0GpdsW+qVUuhD12FlDY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SymbolCacheOnDisc$SymbolAddOnInformat
+ ionAdapter.class
+SHA-256-Digest: SPJorOGyIHHQglDm8gXALhSNagqmXsHSmHgynYYe8Zg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/xercesImpl-2.12.0
+ .jar
+SHA-256-Digest: tQ06TKUC+qTRyDisuKqUgERpU0IfcyfjOMXdo9pedtA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/WebfluxContentTypeFinder.cla
+ ss
+SHA-256-Digest: Q/rMDfvQLn09R1WZze1EQ4QiuazY6Bnj7t9sIW9lxss=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/commons-rewrite-1
+ .44.0-SNAPSHOT.jar
+SHA-256-Digest: ptHCyq41jBCyINQCsHtGfBUqzS5kQiTrtbDMyHZbZ3s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveBeansModel$Boot20Parser.cl
+ ass
+SHA-256-Digest: LNLyjiSC2Z6ovLLufkRT3wqUct8Waz341CQ8jjrU7J8=
+
+Name: servers/spring-boot-language-server/META-INF/spring.components
+SHA-256-Digest: ADe4TP8Cy7WFVkGAK1atvrrMSAEYU1nG3FeNCfhoo3M=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/HdrHistogram-2.1.
+ 12.jar
+SHA-256-Digest: m0f7rkRP6qxLfgTw6ilFaeS8KCvGnYws4qw/I1dygeI=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/completions/PropertiesCompletionPropo
+ salsCalculator$1.class
+SHA-256-Digest: Kz/mUoE9jRBynLSPSBKx0/LzY7bIuJV0T1mIflr5seM=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/JarLauncher.class
+SHA-256-Digest: NpYiIdhBDcQsB0kZe9Sp3TB3uoUTeroIVBt4aTXLn+E=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/Handler.class
+SHA-256-Digest: rbWkcLyqPBjIeZ7Ih1UVABgT2ObTFXXfTlgCGOq7kAA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/commons-yaml-1.44
+ .0-SNAPSHOT.jar
+SHA-256-Digest: iAD9EbaQmgxLwThESI+yhO9qTFGyEGorPb7u2CIv36U=
+
+Name: syntaxes/JavaProperties.tmLanguage
+SHA-256-Digest: Avmh7ZOmZPXC2vEnCYibz+Vc/OFZ/nWZdapZsOsL9EA=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/data/RandomAccessData.class
+SHA-256-Digest: J6YGIQQP3GxIUHa1ARPfV9Snt76Tay2bIlQvH5Jd2Y0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/application.p
+ roperties
+SHA-256-Digest: bDRL+g0g4gb72wTt04B0DlfMywB8MLgB3E9KBTOXy8U=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveRequestMapping.class
+SHA-256-Digest: Qb4cXj6k/bJIH5euq2CiZJaj8Q08e5XdlmQK6izD4K8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/reconcile/ApplicationPropertiesProble
+ mType.class
+SHA-256-Digest: yTOBUs+HMVpMzlddg2ZECRYh5qu1zqLIDNyjvGaw63w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/ST4-4.3.1.jar
+SHA-256-Digest: 68nZvNtnVxwINf9EHq1cHekKJaDT+oQGVKFE6PoEENQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/EclipseJavaDocumentUriProvider.class
+SHA-256-Digest: yDaibgLGC10OZ285X7ckV4I3FwLOG0hzlFoAYEJK424=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveProperties.class
+SHA-256-Digest: b1A7jYLGq55d4ZwyvXzAkpIb0dujEdcNwAcpi9HQ9sk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/DollarPropertyCompletionProvider$1.class
+SHA-256-Digest: x9BjFgnPPNOhvoHCapApdHfqRzqBH8fP70cbWKDCAoE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.core.
+ commands-3.10.300.jar
+SHA-256-Digest: 5Ym0A2cjJ4vNJeeqGQ0WMqWFaUN6IC1cK5fHrJhHuHQ=
+
+Name: org/springframework/tooling/boot/ls/DelegatingStreamConnectionProv
+ ider$NotificationQuestionWithLink$1.class
+SHA-256-Digest: vcMgSHCTlM4OqTydWM3pKZwW3x6Urcypoj1euKnm/Gw=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/CentralDirectoryEndRecord$Zip64End.class
+SHA-256-Digest: 8zFEyn5abZkR67eAbOKYCcpliCF/4XpVBIGNfNt0l0E=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/hamcrest-2.2.jar
+SHA-256-Digest: XmKEaonwXNeM2cGlU/NA0AJFg4DDIEVd0fj8VJeoocE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/checker-qual-3.12
+ .0.jar
+SHA-256-Digest: /xB4WsKjV+xd6cKTy5gqLLtgXAMJ6kzBy5ubxtvn88s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/util/Listener.class
+SHA-256-Digest: ISuCOHKqeQGLB56aRT6KE2jPIZ0FZQfvd1OT3WMA1gE=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/ExplodedArchive$EntryIterator.class
+SHA-256-Digest: T5lVvhUJ2MlfQEjn0hWdlad37+bpQMLr0Ye6SYlncAk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LivePropertiesJsonParser1x.cla
+ ss
+SHA-256-Digest: hATraaksPZ0GLjTHXKY3rDxtoRc7ZoUjw1xe7c2t9Wg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/common/PropertyCompletionFactory$1.class
+SHA-256-Digest: 0i7TYbh0agx94j21/OsgsDmhzYCT64/BmoPrvXvrpEM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/requestmapping/UrlUtil.class
+SHA-256-Digest: iKejTDosjUSH22csB9gxlkVdNycVMRxIvlgjphNINK0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/rewrite/SpringBootUpgrade.class
+SHA-256-Digest: m5S+Jgswi4a0he4ZCnj3B0qfPaSKpS8Duf05Zjh+2xE=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/commons-java-1.44
+ .0-SNAPSHOT.jar
+SHA-256-Digest: bzKR4ynbJN4Ztf60j1WNqhVFadsQuXCLB7YYDiULl4c=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SpringResource.class
+SHA-256-Digest: c1ZpYRgWh8arUX0CZ/gqdWdcv503UKBBU+CgUxkvb+I=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/jsoup-1.9.2.jar
+SHA-256-Digest: nBiF8bGCJW4G8eMLhFHK7QwN7pYpnWNI+WjRi1TQpGo=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/types/Type.class
+SHA-256-Digest: fqnjW6I+YLnJTjoztDoMi0QKccNi5ymi9usLRiBjBlw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/ant-1.10.13.jar
+SHA-256-Digest: vvv8eedE6Yks+n25bfO26C3BfSVxr0KqQnl2/CIpmDg=
+
+Name: org/springframework/tooling/boot/ls/prefs/RemoteAppsPrefs.class
+SHA-256-Digest: Wa15e+s4yqqYc0Z4oPWik8R+FJo1JoIurGXKL/jrot4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/BootVersionsFromMavenCent
+ ral.class
+SHA-256-Digest: muRQQrQBm53buIiZRiEDnEIwjuiNl8hCBEEHxg2cwAA=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/data/DataRepositorySymbolProvider.class
+SHA-256-Digest: BQxlyYXKde3QGdJftxdqZlMFG1Ag1ku1uEtGkJ7dxf0=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/docstring-7.11.0.
+ jar
+SHA-256-Digest: nGMFQTOmZ/hi29RM2Q5JyG/zkJBtazv0Sm1l9CJtZPw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/validation/generations/preferences/VersionValida
+ tionPreferences.class
+SHA-256-Digest: Nylo7oCcryrN/EIfT6N/rLFk8AWCfZnQRdBuyMZiGJQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessLiveDataChangeLis
+ tener.class
+SHA-256-Digest: AnS4qNOtRVSQ3DUvgGmBQY+XRdN+jUlXamFRlbB9M1M=
+
+Name: org/springframework/tooling/boot/ls/DelegatingStreamConnectionProv
+ ider$NotificationQuestionWithLink$4.class
+SHA-256-Digest: 8HicJWD9TZMLPbs2EWe+JC+aPEA5TfwpumCUoUTkUxc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessConnectionChangeL
+ istener.class
+SHA-256-Digest: u/rg3sxGFNA4wH+1DAhTF0TRs+Hmd3Id2Os1Gm2KTso=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.lemmi
+ nx-0.13.1.jar
+SHA-256-Digest: WC1+nY1IDqAilQTDly6doa25t5qubRoFi0dMFOOvXZM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/slf4j-api-2.0.4.j
+ ar
+SHA-256-Digest: V/qHRZms6SWShrmSU9eod6/dLbSwemgnrGyEfKXWAaI=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/ExecutableArchiveLauncher.class
+SHA-256-Digest: 3UvycerjYETK+xEplCAxPIMvdce7RhB94YlN4eWaivs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/XmlBeansConfigDefinitionHandler$1.class
+SHA-256-Digest: LZf12yWIwMKVPoUlUVH/prymtBYy3SpS+U41U0mHVHs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/spring-boot-jarmo
+ de-layertools-3.0.0.jar
+SHA-256-Digest: TMhzYINO+X7Ka91dC5ryqDJsI/i0EkWohsmtkVRID7w=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/gson-2.9.1.jar
+SHA-256-Digest: N4U04znm5tULFzb7Ort28cFdG+P0wTzsbVNkEuI9pgM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/yaml/reconcile/ApplicationYamlProblemType.class
+SHA-256-Digest: 2KSE8WUl2i8nxczs4JPs9lkIq2wpr85f47Ne7RqWl0U=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/beans/SpringFactoryInformation.class
+SHA-256-Digest: d/bSHpFmaZeCHV3aNiR44VvxYyg1BctHo6M0Ap09wKw=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/archive/JarFileArchive$EntryIterator.class
+SHA-256-Digest: wagNeuG/rbty5abhi8pf7xfJrBttSoqB836r1fTZP5o=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/reconcilers/JavaReconciler.class
+SHA-256-Digest: uO7+Ejxodu0LLxZTHKUxDzds0Rid4QgXmtSaTGi9SjE=
+
+Name: servers/spring-boot-language-server/org/springframework/boot/loade
+ r/jar/JarEntryFilter.class
+SHA-256-Digest: OPbOVjv2p+BUtk/ALVDrlMWykGOSuKH5SA37LrEN0pM=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/links/EclipseSourceLinks.class
+SHA-256-Digest: 5jVcjjv/7HXQP6ARTg9Q91nKBdXCq3Uhx/Scma605Mw=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/BootJavaConfig.class
+SHA-256-Digest: tvBys0WIPTTl8pAWzbGZJ8GwFaAmEJngG016jLEqIkg=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.json-1.0.0-SN
+ APSHOT.jar
+SHA-256-Digest: 4mM0IT5upBHbmOPDNYWU/ruNqDN3v8rhEOPhTbiwjoI=
+
+Name: org/springframework/tooling/boot/ls/DelegatingStreamConnectionProv
+ ider$NotificationQuestionWithLink$3.class
+SHA-256-Digest: MEeljP66MCNWVPv3avuPpH2wJHC0NzPGhYdbIaFojMY=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/properties/quickfix/CommonQuickfixes$SimpleConte
+ ntStore.class
+SHA-256-Digest: iVCgcagVCJky4Af1Zd2R6NfKVd72K2/FtXkfYTEK5zk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SymbolCache.class
+SHA-256-Digest: svEqfD9uwL7up1lE2tMZ+4Haeia6GzQJNjAVgZwHcRE=
+
+Name: about.html
+SHA-256-Digest: 775BMJgOO++mIuG2LEXYS76WOun6iw3aLtLrwyczHLk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/common/PropertyCompletionFactory$2.class
+SHA-256-Digest: sSsw3gpKs48ywHYoSoVKF5LDz7i92HXP6LpT2rw0Hy4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/metadata/ValueProviderRegistry.class
+SHA-256-Digest: lIJ0pIuIeWnBQKM6EnzgMQozQYGEdIw6kp2tr2ddL9s=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/handlers/BootJavaCodeActionProvider.class
+SHA-256-Digest: VmmI1cXvuLCpydUK4rC5xOCd6K3vHigDg0I1f6dAyLc=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/LiveProperty.class
+SHA-256-Digest: M/5x6DfzQSPk90yzDPqyC6q53/u4EJpXgEk2p3/iOzs=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/livehover/v2/SpringProcessTracker.class
+SHA-256-Digest: WlcxfWpOx7Jateeh27DcmX560tk4cRVyJtxa7BTgDJU=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/org.eclipse.equin
+ ox.app-1.6.200.jar
+SHA-256-Digest: UoQLX+SO2PUKJteS0hsttztiKgoQ1kwYiD2m+4XcvCQ=
+
+Name: org/springframework/tooling/boot/ls/DelegatingStreamConnectionProv
+ ider$NotificationQuestionWithLink$2.class
+SHA-256-Digest: GpDpmY8MkvxoiI+rD9AMgkgUHN9HAnWXKqZj+40YA4Y=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/stax2-api-4.2.1.j
+ ar
+SHA-256-Digest: Z4Vn5ItRpCxlxpnyZlOa09Z21LGlsK19iezoudV3JXk=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/app/RewriteConfig.class
+SHA-256-Digest: EWApkiHdxUailgHwVoWZ1Qrs+7wS6/olBVORWmjqp6I=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/asm-tree-9.4.jar
+SHA-256-Digest: xC1HnPJFZqIesgr37q7vToa9tKiGMGz3L0g7ZedbKs8=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/log4j-to-slf4j-2.
+ 19.0.jar
+SHA-256-Digest: lrh3UVx6+Zm8fq4o9GtlZDDaiTp9wo8JmEG+MG+BF78=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SymbolCacheOnDisc$CacheStore.class
+SHA-256-Digest: yJ9w1CRHnjDYUe0BWO/xI4192EeN60apEhplVJetDc4=
+
+Name: servers/spring-boot-language-server/BOOT-INF/classes/org/springfra
+ mework/ide/vscode/boot/java/utils/SymbolCacheOnDisc.class
+SHA-256-Digest: BBYQP+Sce2ym8JW+DHYXlYqpKRA7xM1Xk3f6PCZI9xQ=
+
+Name: servers/spring-boot-language-server/BOOT-INF/lib/rewrite-xml-7.35.
+ 0.jar
+SHA-256-Digest: gIzCwhzV36c2eV3U7+yIbboSPcjvH70odLAM/cGWbyw=
+

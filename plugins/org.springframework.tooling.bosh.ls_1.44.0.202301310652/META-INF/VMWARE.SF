@@ -1,0 +1,1009 @@
+Signature-Version: 1.0
+Created-By: 17.0.4.1 (Eclipse Adoptium)
+SHA-256-Digest-Manifest: kXc0XlcwwCG4xj77K7rzF6gKzM7IlEd+85sB8lQ3uFg=
+SHA-256-Digest-Manifest-Main-Attributes: aCyT9aEK4KuiS6edKYByMy/NLpWhD0G
+ WKLquJtDB+4Q=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/slf4j-api-2.0.4.jar
+SHA-256-Digest: MVRMAhSTqs7fC4hiFzfv/YlHymzdPraN/3/cMxjvEus=
+
+Name: plugin.xml
+SHA-256-Digest: ZQxLbOw1S8mvXb+9hWmt5GY0M1lEYBKSWs43Gkn3nyE=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Subnet[
+ Manual]/az.md
+SHA-256-Digest: HAWGwDh0RdrE7sNfNQro2IPEwmVoXDVkGGGaMdZrEhQ=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arFileEntries$1.class
+SHA-256-Digest: dVhpzIGz1nGR2OtQtIOsTX2tZjWl/hAHcSF8euwqwJ0=
+
+Name: servers/bosh-language-server/BOOT-INF/layers.idx
+SHA-256-Digest: ZeU8QhSNNNCG4mLHdMuw3nQ8pQIs0JTAzwurpMxS+RI=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/JarFileArchive$NestedArchiveIterator.class
+SHA-256-Digest: YzLv0CkAzojcwQo+X2Ez0bwUkHl+mcrPBMc67WECKkI=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/Launc
+ hedURLClassLoader.class
+SHA-256-Digest: zFKeSwKvOkTeUWvQHXcYKHUqGH5YWD3JB06e5Zf/2Lk=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/C
+ entralDirectoryEndRecord$Zip64Locator.class
+SHA-256-Digest: 5qSH+pwB7Dm3iISS80fbtQqnss30a/GjQ8/Zni8c6F8=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/lifecycle.md
+SHA-256-Digest: Be9pVUyDxw7UWg4w3xMQS6iWUiWSwpNlBL2jL3Jzl5g=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/CloudCo
+ nfig/compilation.md
+SHA-256-Digest: QB1ZFUOwIxOYMBM+UzRhJzID2aM/D0ba7HYjl/FGwAc=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/S
+ tringSequence.class
+SHA-256-Digest: JW9mzhbAg5GgzozmUHh9FhIw/+KzlvZ8gyklfChfnYU=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/properties.md
+SHA-256-Digest: vjmqHHgJulQaQnhHTwh313p7jhvjw2SDRHc43C6bbK8=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/util/
+ SystemPropertyUtils.class
+SHA-256-Digest: 2xnJA0nJtg795UPUVRqwcSFa+v1JcLjE8biSr21ohVY=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Job/provides.md
+SHA-256-Digest: vLfnktCCa3vZtBC9AgC+i6lN8RGpdoccAjA8qIo1NPw=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/mit license - mit-license.html
+SHA-256-Digest: 8D+RzQMzTvKHkPd0+G0ZB9GKqngYdyuKxFaxN0Ye6zc=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/org.eclipse.lsp4j.jsonrp
+ c-0.19.0.jar
+SHA-256-Digest: AJG8d1AO5RmLysFUTXJ4cTxNg34LG1JrGBjYYwzJEvk=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/A
+ bstractJarFile$JarFileType.class
+SHA-256-Digest: Ft3bLOJDb5YxjlNJtqzhACQMit4DSXbh69SgwA6saZk=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ BoshDeploymentManifest/releases.md
+SHA-256-Digest: yuhKAoXcwXJPo4oPa1W8n5RLbPpsBEuQdNDjJOoiVPk=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/C
+ entralDirectoryEndRecord.class
+SHA-256-Digest: OlWFWQvJl3/PLDQre+KqlN0wxw2KgFFbkpAx4U3ivig=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshValueParsers$2.class
+SHA-256-Digest: DauWjm4QXIBxkvN8a1QcRkEHCnhZcfBbUAxM2gsTHNg=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Compila
+ tion/network.md
+SHA-256-Digest: YvcyzTMG1Sl7LWSWFN8yirXjPDDMz/jU6dgPpiUhILU=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Variable/type.md
+SHA-256-Digest: ONrPbCzdKUrJtrBnv2NxYMzpGHY4hNRDKoUR3AsXe4U=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/ManualN
+ etwork/subnets.md
+SHA-256-Digest: vG3fG7i66Ty6duJlGkzI0/tz1PfO3k0Kf6HqpHH2nKY=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/spring-beans-6.0.2.jar
+SHA-256-Digest: Wzte/JbixAtU818/Kv71QiOflw6nhyfS3SaCY+2oTDc=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Stemcell/alias.md
+SHA-256-Digest: XkPPghX9NxUaqmLQ/+J2BjNr0qxSSgKQY7JEwJVAKZ8=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/AZ/name
+ .md
+SHA-256-Digest: 4U9MjbVQ+uKhzFpzJTM5KsU07vPOxyp/l+UUqyrQnMM=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/CloudCo
+ nfig/vm_types.md
+SHA-256-Digest: x5fibIk/AQGiESIrJg6Ge1hJzOZV+Go0Zz3y3eFF0e0=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/MainM
+ ethodRunner.class
+SHA-256-Digest: vvKpZTMQ003aHhWhnDkO5gO2ya6Gm5lT8BmPgY/hDSA=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/Execu
+ tableArchiveLauncher.class
+SHA-256-Digest: HNRZ+Q+QrdMq9/n4Nv0L//ME0ptFzKFEFDzpUrH8eK0=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/BoshCommandReleasesProvider$1.class
+SHA-256-Digest: IUOHiWkbX8V78P6LaV+EWAFQ0O4eKNv1T/kZL83QXgU=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/eclipse public license v2.0 - epl-v20.html
+SHA-256-Digest: wfGaQKwrloUKRnZ9FmEs7dS/5y0qSH9euQC/sB4QjgQ=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arURLConnection$JarEntryName.class
+SHA-256-Digest: mzNHwyvwxt4hSNOygHqq3j7oheuh+Aw3JrL02OnUDB8=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshLanguageServerBootApp.class
+SHA-256-Digest: IcF4L6KT6kiB/quB+R1aVluLEZJAfexUTGBTAbii61Q=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Job/consumes.md
+SHA-256-Digest: 7/Mt+pTJ0eGSBvXsMWgKpNY8TJYzllX6Go5JqNLWnVQ=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Compila
+ tion/reuse_compilation_vms.md
+SHA-256-Digest: +gTICOZ5TjTk/bka49Lbk1TG3AI5ASa3mQANudUBWd4=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/eclipse public license - v 1.0 - epl-v10.html
+SHA-256-Digest: 7UvjFZWe1y/fZQW48mRMbekh+nVpb2GwLUKxMmavWU4=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/CloudCo
+ nfig/networks.md
+SHA-256-Digest: tzMhjJ18xxILBRPJPTY+S5pLGhETfTZSVW95FtQ8p0o=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/JarFileArchive$AbstractIterator.class
+SHA-256-Digest: HXhFpnmHi2TLdwnSaqegevnHsYbvv59uMbR06uDIAyY=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/vm_extensions.md
+SHA-256-Digest: Up3rjQA1lmGRKeEtMQohXTDK5BRNV5iTdwkMEL0bacg=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/CachingModelProvider.class
+SHA-256-Digest: 175q13BL0XaHAaV5gIDO9qtyYghpeA4wE+6sqCB8tPY=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/VMExten
+ sion/cloud_properties.md
+SHA-256-Digest: yIIWvZDtWdvSQlcaxAIS8bEsmr++vqGifoFcfeQ4EmQ=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/StemcellData.class
+SHA-256-Digest: Abuae6/hoz0gGnnz4YZnzAJ5TuTd2agA8LWZ7VN9YVU=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Subnet[
+ Manual]/dns.md
+SHA-256-Digest: Ur/YD4/qr8glHxD3Y40iCaRfEqdyOGfGz/Z/YcCINiQ=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/commons-util-1.44.0-SNAP
+ SHOT.jar
+SHA-256-Digest: LES+HACvYo2kO0XE92RpaVaT6rZCnoSJfh+ZOAhnu/o=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/AZ/clou
+ d_properties.md
+SHA-256-Digest: IK5v06V+B4epDGMCO29opRtysomkwrsb4oaODT4Nyvg=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses.txt
+SHA-256-Digest: WY9bc+9vIKtoYy1nKIpgQSCfRFg7IKEmdvwpAbg1SAU=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Stemcell/os.md
+SHA-256-Digest: zZGYaDAFUSpv0b5tdgar571do5zRsHdXT6EXqJv7A+Q=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Subnet[
+ Manual]/static.md
+SHA-256-Digest: sZO2pLw1rWxfbDw2mbCimWlAaQFsCN0mEvoEMNzC5fY=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/gnu lesser general public license - lgpl-2.1.html
+SHA-256-Digest: BW+Pycr+DctyCs+UbXo1nvM0tvKh5bOtJwsiSBvWJiI=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/BoshCommandReleasesProvider.class
+SHA-256-Digest: zwl1Xf8RDz+ju/WvXlJG5iQSVLTTX5UGtM09QWs1HMc=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/StemcellModel$2.class
+SHA-256-Digest: k2Jl+Ptx2vbOes+elow5AGpIJWmISoVmoNA0HJA4gjY=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/B
+ ytes.class
+SHA-256-Digest: 9Qse9nKopWCgy2Awx8mc8AKrrdMtKVCTwynBTL3TvrY=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/remark-1.0.0.jar
+SHA-256-Digest: z/sgBUZuLGMWxNgboG0KdDBQhgbGQs1SxQJQipY4cps=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/listenablefuture-9999.0-
+ empty-to-avoid-conflict-with-guava.jar
+SHA-256-Digest: mRJbji/I7GEp2+BLSJqwanvXfFnVJWXFCDhYOX+lkLA=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/Prope
+ rtiesLauncher$ClassPathArchives.class
+SHA-256-Digest: qorZS1SMqdBUmt9UvDURFcnbg6fQ4DmGrHwxjzfsvKk=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/C
+ entralDirectoryFileHeader.class
+SHA-256-Digest: GgpSQA3uILzw+hnQ36CCFvzECWfcwLrZcuPI7N8zxuo=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/org.eclipse.xtend.lib.ma
+ cro-2.28.0.jar
+SHA-256-Digest: W370zAsGy2KleSN7ydSZuVcsJVX0BXz0Wx12+NviAhY=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/BoshModels.class
+SHA-256-Digest: sqSqTMC78ndhJ/2x/lsh/WFT7io5E0nVF+0hZVQ3yWM=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/Archive$Entry.class
+SHA-256-Digest: OCFWyTlH2WmHVNc5s/H+mwIfi9nzMCU/UTV8WvpJpeg=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Dynamic
+ Network/subnets.md
+SHA-256-Digest: D1tRNc/Busn0YwjKI7xfD4yqGooNQTTn8w7ku3JntV8=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/DiskTyp
+ e/disk_size.md
+SHA-256-Digest: 0xHDO8HWrajgFO8o9vxQGxgX+nH/a/lKnwl13PMn8oQ=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/error_prone_annotations-
+ 2.11.0.jar
+SHA-256-Digest: nKg39LKX3A/4S6sxL++fWSbKl/r6Vb30gAxbE8PqYi0=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/StemcellModel$3.class
+SHA-256-Digest: T1MFaJftC5NmYfjeMf0F1j6VZ0VnkpyiiBe2vGZuOlk=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshDefintionFinder$Handler.class
+SHA-256-Digest: ltVCz1+cVz22yYMfIdBetGC/0CYRVxCvK7JmMFOLAMQ=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/commons-lsp-extensions-1
+ .44.0-SNAPSHOT.jar
+SHA-256-Digest: YqFfW1J5TW2BABKuGWujF3HfOrTSiiCn5Z4Oa8LKnlc=
+
+Name: servers/bosh-language-server/META-INF/maven/org.springframework.id
+ e.vscode/bosh-language-server/pom.xml
+SHA-256-Digest: biOntMdPU6KO8k+NoYYXmNvvN9k+kUSO0Kxl3OhAkU0=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Update/max_in_flight.md
+SHA-256-Digest: 0Xy6Tn3SVjgR5e5CCz0nkZMhzdifAj1sHbrdtzilsy0=
+
+Name: org/springframework/tooling/bosh/ls/BoshLanguageServer.class
+SHA-256-Digest: XF8X1V/CRa9IJ6AEPmpTztasIcvH/dv0Kw5BT2pbrtA=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/BoshCommandBasedModelProvider.class
+SHA-256-Digest: ty9JdLpYbhCqv4w7oio27e2gFdeELFUQYq09ebI28ho=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/Archive$EntryFilter.class
+SHA-256-Digest: 0ejHMap5EhtRYfLcFYde6WqICNMduLyh7cmD+a9GF7I=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshCliConfig.class
+SHA-256-Digest: a4ZJVy4Oni1GjXx925kCtLskIaQMKkbMrjaH+4fGwm4=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jarmo
+ de/JarMode.class
+SHA-256-Digest: u+nnl1S8tBgfgLk5qCrz4KsEjYp97Poxq2mSUndCYy0=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arFile$1.class
+SHA-256-Digest: /0mIQZL6TQlwLrZO/UM9f/jnCuy9pZOfeu6U321rHEg=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshValueParsers.class
+SHA-256-Digest: ZuTGlXltXFBlnZziMVWy2BiHRYj7lIErQoi157sFPdQ=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/jakarta.annotation-api-2
+ .1.1.jar
+SHA-256-Digest: AULuJOjq1nXdUIjvkvzGqQyitE8segBRTG+1b4oncy0=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/gson-2.9.1.jar
+SHA-256-Digest: BS1fsZi6KGwY8Jt61K7XZrf/vgY8KP3I2pCb8togdR4=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arFileEntries$ZipOffsets.class
+SHA-256-Digest: l9bBY+n3uy3pTp+NM7sBH9qHBMH7jU/XF9CDs065n9U=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/CloudCo
+ nfig/azs.md
+SHA-256-Digest: Yd57yv6Qn7RUC7bF0VnW/KDRTnfH9KtY8tkyhSFWkxs=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/the apache software license, version 2.0 - license-2.0.txt
+SHA-256-Digest: wEeel8WWHxTjRIinHJRBaMs+JjRxdPLQu6CavHZ7XPk=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/Prope
+ rtiesLauncher.class
+SHA-256-Digest: dvmE4fefBgzQR6GPg5kojT3CiYbgXoudNZKwS1GbSW0=
+
+Name: servers/bosh-language-server/META-INF/maven/org.springframework.id
+ e.vscode/bosh-language-server/pom.properties
+SHA-256-Digest: kT3dRZo/V5i9BT14/CbiVqBea384DeRxtyUnYdB7hDs=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/ExplodedArchive$SimpleJarFileArchive.class
+SHA-256-Digest: 9HwGcSQSsFKF7ahtRNojcPQlb/vinQkOHD96mVtW1Yo=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/BoshCommandStemcellsProvider$1.class
+SHA-256-Digest: JuBFcAFBa1Eiv1Nxh1wmAKMiBCySR+43UBBgpW8giU4=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/BoshCommandStemcellsProvider.class
+SHA-256-Digest: uxkOtvWFkCWY2tHqSHj2buGCzooQumWvkYenSAzK9zk=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ BoshDeploymentManifest/update.md
+SHA-256-Digest: FckpEUP4X11sLAOtnQCLsYyQilWz5IO0OfYgRHtkjOE=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Update/canary_watch_time.md
+SHA-256-Digest: tvIhg4Lp++x605GUmZ/mslZxEILHINbKBi+O/KSkCTk=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Job/name.md
+SHA-256-Digest: 6gW9I8E+T2oToCYBWrOzS7+dQdDNAAYYjvlVPBSq6ng=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/language-server-starter-
+ 1.44.0-SNAPSHOT.jar
+SHA-256-Digest: wcKAs1OUGJILPaSsVWNBXL36xWpAMeirLOgDFRMNaJY=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/VMType/
+ name.md
+SHA-256-Digest: quHuZ6SMeXwr+sdpTpVwca18tSRRBDdC3Z9Wf3Pc9WA=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/checker-qual-3.12.0.jar
+SHA-256-Digest: 60wdxXwylOOVnqL8+wsEPtk1Fz7xT5ahV8avd+8TMc8=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/VMType/
+ cloud_properties.md
+SHA-256-Digest: nwe2meW8vZMKFuz8xpj8yaddLfUjiC9aPS7LJUFSXlo=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/jsr305-3.0.2.jar
+SHA-256-Digest: Dk6togjWW4gZLbQ9T5lr109Qif5Y26ohXW5nrYYDEZM=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arFileEntries$Offsets.class
+SHA-256-Digest: Dikc91PEqPa0WLs6ifY5DGay7Q7KfJFyA8SjzDC3Wkc=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshDeploymentManifestSchema.class
+SHA-256-Digest: sxSl3LkfvHK5e+E/GSUSwMbTnCgLnwutK5jGUgqv6LE=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/apache license 2.0 - license-2.0.txt
+SHA-256-Digest: EhwmWJNO4CFJUAj5CoaYyQmfEor4+J2nI80y37O2Hrc=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/StemcellModel$4.class
+SHA-256-Digest: pmqPnzScwUhAsMrxY154vlau+EkH9ASoRmNmfe+CALQ=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/vm_type.md
+SHA-256-Digest: 44sHmls0HojT9lHH6nFXENVazzby1DgQkd5f2/1lJ1Y=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshSchemas.class
+SHA-256-Digest: yfFhigRMBt54sZMHO84N4wtDzrp5PgaxDN8zknl/PfQ=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/LICENSE
+SHA-256-Digest: U5hfpdX9v4tsvEq9puV2HwsbVaB++Esyx5OyWabO4Mk=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arFile$JarEntryEnumeration.class
+SHA-256-Digest: KA+Hp0Fgtk4GrxufxRQQsf9hhUa4a716IJADn87FePU=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshDefintionFinder.class
+SHA-256-Digest: HnQcwwIi6JyiwaYYXhD8DRKCQryRTFEMesSiqzwmiB0=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/ReleaseData.class
+SHA-256-Digest: LBX/TiiDrz6wI3SIYMQOkRcSFnLtlWTQI2TQPVswpSc=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshConstraints$1.class
+SHA-256-Digest: V4VZhEticbpUEVn3c1tdA5z+OYXo0jAudpWKcEeRw3E=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/spring-context-6.0.2.jar
+SHA-256-Digest: zZ9GeTiGvIU3lBkZufPoC7AqDLNyLup6OniHs300n7w=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/javolution-core-java-6.0
+ .0.jar
+SHA-256-Digest: 42E233nXaJ3jqRNpkfYP6dcbRfP6EnM/4jug3bqjmIc=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/logback-classic-1.4.5.ja
+ r
+SHA-256-Digest: e91iobi16lAWqNMYti2eul6oi7NBbf1Ldgx9BaCBQsA=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Network/default.md
+SHA-256-Digest: 1EiFvz2IFNo++ce+9jZUZ58HG5rjWNrBo1W0m2zNnuw=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/guava-31.1-jre.jar
+SHA-256-Digest: YhMuHD/VzYXl3HGs9Vua1flBlzkMRZbVkNApIU+LDiE=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/commons-language-server-
+ 1.44.0-SNAPSHOT.jar
+SHA-256-Digest: iRUQX5iI75odRRf3wutav9K1PMYYliHPwmHdQxVPMW0=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/ExplodedArchive$AbstractIterator.class
+SHA-256-Digest: 5hSGmgoDtcKFVFEXO6b2yUz5qOzE9iXBz9qxQQdNSLs=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshConstraints.class
+SHA-256-Digest: zbypGkimhAn8cgpkcY0MaP4RMWPPoPoJ7O9vxtO5T1k=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/SchemaSupport.class
+SHA-256-Digest: 0rAG6RLGeHEIjKMzDrNw6a+l1TSIaNqQhQ4SYF2mz64=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/BoshCommandCloudConfigProvider.class
+SHA-256-Digest: FMvsyAhpOirQYmy2krRWBxYeJsGByiquI6aq+0AKl74=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Job/properties.md
+SHA-256-Digest: keKKo9HAPM8IRjlgcCSZ4WYLgANz/1UmSpRYHJb+MoA=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ BoshDeploymentManifest/properties.md
+SHA-256-Digest: /lu5zzGxsxvkttcdU2Pvq19QMDEiMjZOsKFBAm1KbUo=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arFileEntries$Zip64Offsets.class
+SHA-256-Digest: 335Htqu41s+h/9uBNJqqA9ziZv1MTBRycJHgyqVGXaw=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/DynamicModelProvider.class
+SHA-256-Digest: N5D9sVh7Lr8frsMjkoecE+P80v6ePy2y9DnB6ueSpWk=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/Archive.class
+SHA-256-Digest: IK2AYkwCoDRYtK8rDWyW4ErCP8KEwrqFEXyhrXS/2ns=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/BoshCommandCloudConfigProvider$1.class
+SHA-256-Digest: sa3w8q1FbB+FCV1NuiZjggm1XZ34M1XYg3pi8Zqr150=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/j2objc-annotations-1.3.j
+ ar
+SHA-256-Digest: G5MKj+UWus8FTUYDWLAFSTpr8sDnaAiq7IaFbxsBguk=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/DiskTyp
+ e/cloud_properties.md
+SHA-256-Digest: Wrk2Dn+OEQ6IrlEa5P4eXyaWNG6muf/urfruKG8PN58=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Compila
+ tion/workers.md
+SHA-256-Digest: /UlDVE12DW6pqutphLGonslIT/6AdbRdsRacrWt0zro=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/commons-lang3-3.12.0.jar
+SHA-256-Digest: rtLi/ptMLxy+hH7PL+ARAetYavNvad2vdy+dLoezy2M=
+
+Name: syntaxes/YAML.tmLanguage
+SHA-256-Digest: CDU2dn8kn8GWhhesQCazbZsSeQt0xeGOFN2snj9My2c=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Job/release.md
+SHA-256-Digest: BJeFll5IlOdDg5azmDnxKkxjf4jwmow1moqTLZCSH8c=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/CloudCo
+ nfig/disk_types.md
+SHA-256-Digest: XY2v2fcULPQMY4Yprp+E0zwuONUXdlaKDiKH20DV4bs=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Release/sha1.md
+SHA-256-Digest: zPJzsTZ4nXcUuwY9gJLpnYNTPUwkJvHCvozIZXPIwoM=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshValueParsers$1.class
+SHA-256-Digest: gI2MUvJ4ztOUgEcpmRwg4Re3MacwdJD8a1EC05LDzzI=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jarmo
+ de/TestJarMode.class
+SHA-256-Digest: IC15rUJN+Xxwmcl5dpSxKdGN6fSBiH9wIf0eYqrqa8c=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Network/name.md
+SHA-256-Digest: Nu30rYMQ0i5jQY4HZ0XSdTmuSYYwZGQouI2If72mtZs=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/jul-to-slf4j-2.0.4.jar
+SHA-256-Digest: tqyChRKp/QOWgxaqYwENIfIikQCOCej1FOIYzqC1S8w=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/org.eclipse.xtext.xbase.
+ lib-2.28.0.jar
+SHA-256-Digest: bNkCcjphDUQfmfD+L4S9eyiFOmL7P6R3y/9FPiYtevE=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ BoshDeploymentManifest/instance_groups.md
+SHA-256-Digest: 98yn9ENnqguMqalnA9YZ0wt83h7EtE9rYnEJJ9OY/mU=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jarmo
+ de/JarModeLauncher.class
+SHA-256-Digest: 1sJW7W0JPrF9IQpiVjTYFF3/XNS3ZuoYF7qqi//Afi4=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/org.eclipse.xtend.lib-2.
+ 28.0.jar
+SHA-256-Digest: 7FDjIqfUIpb63Xf058rqsaoTB+YjhrI6vqrpy8g0lSA=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Update/canaries.md
+SHA-256-Digest: a4SGbOmByCjXWEeweRMlDlobqDDu+++E1HpXWzIsKFE=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/Z
+ ipInflaterInputStream.class
+SHA-256-Digest: uei/MiJpiCu2IQbMSmUPi6lz2n50ZISANjaASiRTTT0=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/logback-core-1.4.5.jar
+SHA-256-Digest: K6mQyjdmhvsZo7eWI1f0CEzblpfxM/dAzjrUd2GY9Jw=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/data/
+ RandomAccessDataFile$DataInputStream.class
+SHA-256-Digest: Se0CXZJTn82XGfaEsuqwxH4PB7DT59MhRLgIkrgG9xs=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/migrated_from.md
+SHA-256-Digest: Z2HxiAtYitB9MGbuTTlyw/TYHz32wvm//c+WwU6Allg=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Network
+ /type.md
+SHA-256-Digest: I5H8iRd+geI+AK8Eg0poZHN8KLUKdLQS2FRV97kvL6g=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/bsd license 3 - bsd-3-clause.html
+SHA-256-Digest: Z/KdEu4hz/UmI5HcB61RybdT805/CNIcM6Ikhtyy+wg=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/spring-boot-3.0.0.jar
+SHA-256-Digest: KbKCWngjoK5waNOJFStQYB2xgUROHb9VAjBlfIO1USk=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/the mit license - mit.html
+SHA-256-Digest: FqULY9uErP7Fo9rydy/IupgjP1Uj9dXXLmPsaPgP1J8=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/JarFileArchive$EntryIterator.class
+SHA-256-Digest: jhcINkOs1aVgNKDmDfVfTNIh9tNs661CM7gKiFE49Qk=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/org.eclipse.lsp4j.genera
+ tor-0.19.0.jar
+SHA-256-Digest: KZlttuE7riucPOTb82lvLLkKWjAOPJTAWHVxL3sb7SM=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arEntry.class
+SHA-256-Digest: VyZCIxMzvkGN9PX8XoNLytbTNqCvdOxHZ618jmHtiwk=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Subnet[
+ Manual]/range.md
+SHA-256-Digest: ALGSdnSICDeZWNOJfgU/wBSgqO2HwdivzD9Ix3Wi6NA=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/ExplodedArchive.class
+SHA-256-Digest: I8wZkF25bmWwU7kZ3IE07ak6+Kb+V4+bI+QjOJm97lM=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/stemcell.md
+SHA-256-Digest: EXIGsbQicPtextkXT8bU2MHoGt8Ve6LqnEvVcfBdvx8=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/WarLa
+ uncher.class
+SHA-256-Digest: o4pciDEa3RfDs8+5GvIYB0H3Fk1tFrVdjZMAFuGYRpQ=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/DiskTyp
+ e/name.md
+SHA-256-Digest: vN8F2X420f2BIKs7CcXHeRiz7mJeUdrvERC22bLTjKI=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/ExplodedArchive$ArchiveIterator.class
+SHA-256-Digest: ItJ0ucgJjsElMhJvRnJ2FsqdIE6zeKHZ7Y4NaGzcJ8A=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/spring-core-6.0.2.jar
+SHA-256-Digest: 8omZwQ3DZ5i5dPOYdgqPAHIsScj9gPN9jGSDg3TlDvI=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/StemcellsModel.class
+SHA-256-Digest: ++198/6jWdTp6LrSI+S6CX4Ln866MgGsqOBBVmTS7b4=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/failureaccess-1.0.1.jar
+SHA-256-Digest: lULE6eAZGir7WmRfRPG+esF8nUCJ7ivO+Oyf3btlE20=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/spring-boot-autoconfigur
+ e-3.0.0.jar
+SHA-256-Digest: MbPqRmZZ6u3m8KoVpE7fH2z2QfICUg4HXjVKEV+PwN8=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/env.md
+SHA-256-Digest: cC0ALADq2iqKCNOGYfOQt8HhSo0989WHPV5xVYyVyb0=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/Launc
+ hedURLClassLoader$DefinePackageCallType.class
+SHA-256-Digest: qOAHFVQ3Q7j/BSXhL7nPw3u3211Jv4KgIvvrMgLZGyk=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/jsoup-1.9.2.jar
+SHA-256-Digest: yMJXiohDbSLFR9JKqlrE/nxe5h6akP2J93pki3gpzJs=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arFileWrapper.class
+SHA-256-Digest: GVQ2s9KmC7JxDimyu/TZ4xcLJluHz9pI6N0ilvxvZJs=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/Launc
+ hedURLClassLoader$UseFastConnectionExceptionsEnumeration.class
+SHA-256-Digest: /8J12c1GbejUtz+GD+hcdExYo3pYmxiOJdsrGktl7Hs=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/reactive-streams-1.0.4.j
+ ar
+SHA-256-Digest: L2bxdTAlIv8/GiVnOysSjsRB6pHOCjXpdXNxuVw+5Hg=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/bsd-3-clause - license.html
+SHA-256-Digest: j/VnPnGgHxj+xTQsyzUB5wvkS7dW5CvfZ9karkkk5vo=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroupEnv/password.md
+SHA-256-Digest: O9h8Fx+h/5KegVlRphRhfyUmzHxng93ziJgmLYjG/uk=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/update.md
+SHA-256-Digest: CdJPcIQqKu9ozSGxM6GvaAfqIYzJwJKQtGMrsRwbne4=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Compila
+ tion/vm_type.md
+SHA-256-Digest: ch981TSZEgR6+o6uOFQJJHZpjxyOgFSAAvDqFx3jzD4=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/VipNetw
+ ork/cloud_properties.md
+SHA-256-Digest: IXbX3S84FM3eEJgme2OcVl0e2mTHb73JSfU6x2+vEFI=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/spring-boot-jarmode-laye
+ rtools-3.0.0.jar
+SHA-256-Digest: TIr3dTiozHYDdyngpEzLMU1laiM749ddRFRzDM+4fYA=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/log4j-api-2.19.0.jar
+SHA-256-Digest: NwjyqmOugoStT59gHxottPUM7JHfFhrX0d6/syp4CL8=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arFileEntries$EntryIterator.class
+SHA-256-Digest: FSwCDtmvFoDMjYSVpNxUxSFKd4yPx0NRLO0gbMfmJ7U=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Subnet[
+ Manual]/reserved.md
+SHA-256-Digest: c+Da3ATGsPOiUypuvzDhYC0mIpaYGGgElPQ+yxHfsws=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arEntryCertification.class
+SHA-256-Digest: GK29O2/MW60JMdneRJ6LdUDyGox18eKaXnR7/iiqMbQ=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/instances.md
+SHA-256-Digest: gvllgWrRuV+GZeF7iOLK2wT4Dnw3j4AIPIRCAA0vCLg=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arEntryFilter.class
+SHA-256-Digest: B2jPL/iKSU5J10S9orYe/cyHzl3Ew9+SvTryBcKTrzQ=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arURLConnection$1.class
+SHA-256-Digest: 1rOe2SH5+R+1ZoJCQ4Lmjg/BsEV3ywmFp3Tl21KejFc=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/ExplodedArchive$EntryIterator.class
+SHA-256-Digest: HNAtr5cwhX5HObC7h1dFoC3bqPAC74kjIfywGVG1ZAY=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/JarFileArchive.class
+SHA-256-Digest: fgCdg1hoXjZ7Fp71TPyxU3yhLwnJG8fUPjX7veTp3Yk=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/azs.md
+SHA-256-Digest: k9GVlRK6s1SwL02DwnVeUGAIfH75SNZiEqekF5NKAZo=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/org.eclipse.lsp4j-0.19.0
+ .jar
+SHA-256-Digest: e5j7rUIzsvpx4SLL2W1FHnGpeE04SD6ctgvla9j4HbA=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/persistent_disk_type.md
+SHA-256-Digest: Keph1g1adPVXjJdkZYyuWfxdMBlBG7pXg9BI7niSps0=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/data/
+ RandomAccessData.class
+SHA-256-Digest: TB5mJq924xQNojjB252PJ25/qY6C3TjZCiu85xmG7CM=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Subnet[
+ Manual]/gateway.md
+SHA-256-Digest: vCSFO2Nt8bsCoQ6hxIdxgde4s6rDMVnr2rvi2arQgbw=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ BoshDeploymentManifest/name.md
+SHA-256-Digest: T/tJUzwTuQACdJZyoDo9GXVOHrD1j2ZUlNNtcliqDHU=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/edl 1.0 - edl-v10.html
+SHA-256-Digest: a4b1ZwAHG512IJ9hrhmrSWkBZrb0SJaZMGLZGEcTYBA=
+
+Name: servers/bosh-language-server/META-INF/MANIFEST.MF
+SHA-256-Digest: rurrm806TiXu5Xfpq74Ad6NHDq+e9DuVa6KNDVTThbI=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/reactor-core-3.5.0.jar
+SHA-256-Digest: xB85YhiV4lMR/5R3qKN3Z1Op6EZ26Nk1pkrWbqCTay8=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/networks.md
+SHA-256-Digest: xRawxIz1TH84WFBWGAnoMiOKs/c30G6Y0xLk6P6CSAc=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/F
+ ileHeader.class
+SHA-256-Digest: kSWrt7hu/9/vV8XEWV5OeiAHWJgbriqvc+kCFYgHXiI=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/commons-yaml-1.44.0-SNAP
+ SHOT.jar
+SHA-256-Digest: lFBg1H0n+DpO2Ou1jA6p4xmU2nO3kvVhaJb2OZmVhZk=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/application.properti
+ es
+SHA-256-Digest: eurZ32eRMnd7mH9lhU492DVd9gYdu7rRvsKJ2yGqzeE=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/C
+ entralDirectoryEndRecord$Zip64End.class
+SHA-256-Digest: Bt1v6hDzOQiZqc6Z59tp2M1Gio2ddOEXloQsxDuRjgc=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arFileEntries.class
+SHA-256-Digest: gPyw6BqXcs1JmRyzALPIleyg8REVfVPtVAzeF0mLCr0=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Network
+ /name.md
+SHA-256-Digest: AYVNWqoxCNUGrhejKOdxGNhCrAzUOJ4Hctg4Ja0XBC4=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Stemcell/name.md
+SHA-256-Digest: FR9asa7UvyRa4dYx55zd7Snq01aJBl+WD1rVWLEbKYE=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Update/update_watch_time.md
+SHA-256-Digest: DiRA4CNeil1/vcjROMshCmRAJyDJTNA+GSvW/jflU8o=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/mit-0 - mit-0.html
+SHA-256-Digest: 9hEzny2D9ZNspv/1WSim28vGEEmobj9D9s3iVxuvdsk=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/StemcellModel$1.class
+SHA-256-Digest: TsFM7dMNUrsvUWM7GNmshQBbpYeqL6Xuely4idNss64=
+
+Name: org/springframework/tooling/bosh/ls/Constants.class
+SHA-256-Digest: yTz5uBu3to7G0iMo/TOHiwdYVUS/dek0Ti8aZqoGHZU=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/ReleasesModel.class
+SHA-256-Digest: 9bq2lcqf/UWFCXHD+zuAHCWOupizOKQcwzmX3zsIsqM=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/BoshCommandBasedModelProvider$BoshCommandRespons
+ e.class
+SHA-256-Digest: PqerueiEAKtayaRw2/VoKkpq25c4+udo4WglX7T8uT8=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ BoshDeploymentManifest/tags.md
+SHA-256-Digest: M59B9jKljLfW1CmDDtp7GjJTlxLu53GojuNc18pQcR8=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ BoshDeploymentManifest/variables.md
+SHA-256-Digest: dYuWK6Y2fCnqTtsQRteT8tZb86FbzDdgXIn52FJtWKQ=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Release/version.md
+SHA-256-Digest: TnqmM//kA3g42DhgQdKMYnT/fVLbGG6pbbhenmGZDFw=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/the mit license - license.html
+SHA-256-Digest: 88TapwU9quu2O7JhMttYsr68BjiGEiPqBBZj015OKxI=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Dynamic
+ Network/cloud_properties.md
+SHA-256-Digest: 9GrVoQYzzBnTrSXATwYMlHojQ2t8baDoHeHdFg7Exp4=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/data/
+ RandomAccessDataFile$FileAccess.class
+SHA-256-Digest: wOiaS18XIe2vowINPsSTObO9Z3x19IIMBm+kXJv6rt4=
+
+Name: servers/bosh-language-server/BOOT-INF/classpath.idx
+SHA-256-Digest: uNlR8N7o0j6aGCu1VSev+fbB6Oj1pRHAjowo1nDHCQw=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/spring-jcl-6.0.2.jar
+SHA-256-Digest: 9j7UDNJgx+HMfLL4UkQUP3SRXVocUqRMYO0doH70g/g=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/Prope
+ rtiesLauncher$PrefixMatchingArchiveFilter.class
+SHA-256-Digest: Ei6T7ODyiV0JM1KkW0jhfGFUFe4reIp+pQ7HwOR3J7E=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Network/static_ips.md
+SHA-256-Digest: Jetdh2dRvpKTGV+TvUPX7KUIm0Szph/weXFtk3SL1gw=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Release/url.md
+SHA-256-Digest: 6EgjTqkBqE1YpUL0P4jQ4Vk6rCuczN04eRl7+ttp+mY=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Subnet[
+ Dynamic]/cloud_properties.md
+SHA-256-Digest: kMpiVt/lX/OzaObRXpOyjn83WCOl+kMq8LPOdf5hd3Q=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Dynamic
+ Network/dns.md
+SHA-256-Digest: k1SOWAuUtrMO1Z5EQl/GzwmA7ty3UtnFPsw3+41+IpQ=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/epl 2.0 - epl-2.0.html
+SHA-256-Digest: AkXGwgH3sMjU1Z3KJXAPdBN1sfQxocUQhAOhkAFLZOc=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Subnet[
+ Manual]/cloud_properties.md
+SHA-256-Digest: fxe24VHAWsKnv70ezW+dwFtUfCkwbUlyp5m+FNdw6vI=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Update/serial.md
+SHA-256-Digest: edWDrcvr4qjfd48tmZGIOUyQhfTncDtZQ4eWHhbWEOo=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Subnet[
+ Manual]/azs.md
+SHA-256-Digest: qCZ2mOygYw4gdH8shiQO1iK0h30qxTJ0Hc0z9JUbTkM=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Subnet[
+ Dynamic]/az.md
+SHA-256-Digest: RghciUZkrYWFgPYdbMnDcO3SC7t3/YtsyJGiFfDaJxE=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshCloudConfigSchema.class
+SHA-256-Digest: hyTcpYI7u0ifbKviO0sd1eIieo6onp3F1LomuopL96M=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/JarFileArchive$JarFileEntry.class
+SHA-256-Digest: HXzI+toRsJLMwMJnBqAMdlnA7V14P09c0D/W1yZmWBk=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Subnet[
+ Dynamic]/dns.md
+SHA-256-Digest: 5L6LjiGBiyOD54YqxUtYEd1NA4CgZc2l7VlshT9I1aU=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Variable/options.md
+SHA-256-Digest: qfElH9f3UAQhPl6g3AEfwTxMy0Bc/OekrObtS87d8Yk=
+
+Name: servers/bosh-language-server/META-INF/third-party-open-source-lice
+ nses/gpl2 w_ cpe - license.html
+SHA-256-Digest: 0rA3CSjmNlwIwTvUEDYlSS1rt8NAiO3qqx0a6zfKCUc=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/archi
+ ve/ExplodedArchive$FileEntry.class
+SHA-256-Digest: Tux3Wu7Y/XtQsZhAAawsDezAvLEZOIcyKbf9dVSnnrM=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/spring-expression-6.0.2.
+ jar
+SHA-256-Digest: mIjhDD4InOJ9B21VaAw6gx69t+DL3MiWvZk/QSCeX3Y=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/Launc
+ her.class
+SHA-256-Digest: x8gaylFjl+i8+OKu3M7FiDT5piip/QhuFhso28w6FQc=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/CloudCo
+ nfig/vm_extensions.md
+SHA-256-Digest: 8JQNbCTwGslLXVcOBQCuhGCnxPnaSvyJGQ/MOcPPxnA=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/log4j-to-slf4j-2.19.0.ja
+ r
+SHA-256-Digest: LEWE0UpDA9hYYPGayjJ/PVWjTz3TfCtJcfRaqjKtwZA=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/StemcellModel.class
+SHA-256-Digest: sgTMjbqNgGE0qct4aYwCBg+9rGAI2RChmZ8f/2BarMQ=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arFile.class
+SHA-256-Digest: dC2oRbcUj46lMpvovCiY8WZmeaVVnRjvQH0TavgUDeo=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/name.md
+SHA-256-Digest: hPV98OLHLRyTJBGw/zKsC15T5QPB9LvGoK3hpbpROQA=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Variable/name.md
+SHA-256-Digest: 9tEGZe9ReCLh5x2vOzsAL/KodtoclZrii/zKbgT7J7c=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Subnet[
+ Dynamic]/azs.md
+SHA-256-Digest: uIO4hRWTfkyG91H92i91xrQNiKKRBMfckqbpRk0AHec=
+
+Name: about.html
+SHA-256-Digest: 71vwKmEnuxXZAS4jXMxDpbP19axr0ELHGPfjtlu+DR4=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/H
+ andler.class
+SHA-256-Digest: PIyEm7va+di+9NjK7gmiEmnHKIUwzelTvjNpxJ2XiF0=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ BoshDeploymentManifest/director_uuid.md
+SHA-256-Digest: vWOJVxamy4mcnrwRHdAG+m0rko9IUz3TsjSyUkYulCg=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/Compila
+ tion/az.md
+SHA-256-Digest: nqklEIS39QIOIAnW5gPnU8ZK2Hr+bH6fjWy2k1gD9nI=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/C
+ entralDirectoryVisitor.class
+SHA-256-Digest: 1nrbKi7IxVVv/72kieqND3r0s4PlfFIVlEe8buiZAbk=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/C
+ entralDirectoryParser.class
+SHA-256-Digest: qFWs/xI7AynbEeRWVKy5Bdfxive49+peF7lvWGd7Qfc=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ InstanceGroup/jobs.md
+SHA-256-Digest: JAQw06VVQoL6iboMtVv9sC2Oc0uw9YQZopTTnFzrzy4=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Stemcell/version.md
+SHA-256-Digest: ZDquPJspQOSY1zLTP95bJdCvffKwPnfW9WouuBGW0ec=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/data/
+ RandomAccessDataFile.class
+SHA-256-Digest: AJyi4X6b5MMdUexGB+Q+0KkEOUsqWBqWkVTsVxzV/pw=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/snakeyaml-1.33.jar
+SHA-256-Digest: X9YY+9R3B82uL8vuFC2YdDMmrIX2Et+lTKaFlpiF9N0=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/A
+ sciiBytes.class
+SHA-256-Digest: ueci6jttwAhXjLhRPJBk7HVEBnPaOxF9gpUCi7Q0JW4=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/models/CloudConfigModel.class
+SHA-256-Digest: Uvixkh6U5BI7CV0nUgLHFHX2TRBGxzN3eII+oqmwC1s=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshLanguageServerInitializer.class
+SHA-256-Digest: Qvl31NeTTJVxgvecb5lE8/V1C+x6Q6CEtOaza3/c0NM=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ BoshDeploymentManifest/stemcells.md
+SHA-256-Digest: OVHhEMBvc/NDM8IiCjhYBKg4x4+FfORvbQiceNfWNzg=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/Class
+ PathIndexFile.class
+SHA-256-Digest: RPhM/8PFNIMY5cFz1nENOJBBbZT355He18YbcYwbIj4=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/J
+ arURLConnection.class
+SHA-256-Digest: lqr2OOr9fkpSbyQ6BaLRzsajA4yy41t7jYnUsTNquxE=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/org/springframework/
+ ide/vscode/bosh/BoshSchemaProblems.class
+SHA-256-Digest: N0jSNceARMMTupAjEbjYnRJc2fyE/sf3etvZtKkR7FE=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/JarLa
+ uncher.class
+SHA-256-Digest: dELiSa3BY7l2In2TGS+tKg5WDAQAwngEr/0+rlfaoXQ=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/cloud-config/VMExten
+ sion/name.md
+SHA-256-Digest: 8ENYDpb4m5CMPvmivX16YrmVMEXVE+QZGsbkpeX4drU=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/jar/A
+ bstractJarFile.class
+SHA-256-Digest: h/HsEO8tlDbPnimzEp5jKqxnmLaRcgtaEifHsvluKfc=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/javax.inject-1.jar
+SHA-256-Digest: 9ummsoHL31Cq6MEvMq+hwk/Z/Rrasp5i+zrK3AzYJX8=
+
+Name: servers/bosh-language-server/BOOT-INF/lib/spring-aop-6.0.2.jar
+SHA-256-Digest: ns+OBXNlCA010heiSyT2cyQLxHlOAaYTAdnacdHAYbA=
+
+Name: servers/bosh-language-server/BOOT-INF/classes/deployment-manifest/
+ Release/name.md
+SHA-256-Digest: aj0+KQOImF+5byCzSkE0p14VHiriOM+5U68wJeBGmos=
+
+Name: servers/bosh-language-server/org/springframework/boot/loader/Prope
+ rtiesLauncher$ArchiveEntryFilter.class
+SHA-256-Digest: jZr/6IrrFk1jvpQl0xS3CMur8RtdOsKAGvgYM3CIyyg=
+
