@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<H1>질문 테이블 리스트 출력하는 view 페이지</H1>
+	<hr>
+	<table>
+		<tr>
+			<th>제목</th><th>내용</th>
+		</tr>
+				<!-- 타임리프(Thymeleaf)로 루프를 돌려서 출력 -->
+		 <tr th:each = "question : ${questionList}">
+			<td>
+				<a th:href= "@{|/question/detail/${question.id}|}" th:text=" ${question.subject}"></a>
+			</td>
+			<td th:text= "${question.createDate}"></td> 
+		</tr> 
+
+		<!--/* thymeleap에서 링크를 처리 : @{}
+			<tr th:each = "question : ${questionList}">
+			<td th:href="@{|/question/detail/${question.id}|}">[[${question.subject}]] </td>
+			<td>[[${question.createDate}]]</td> 
+			</tr>*/-->
+			
+	</table>
+</body>
+</html>
